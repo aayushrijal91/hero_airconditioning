@@ -8,6 +8,11 @@ header {
         top: 0;
         width: 100%;
         background-color: $primary;
+        z-index: 100000;
+        
+        &.shadow {
+            box-shadow: 0 5px 5px 1px rgba(0,0,0,0.075);
+        }
 
         a.nav-link {
             color: $white;
@@ -57,7 +62,7 @@ section.banner {
 
             &.bordered {
                 border: 2px solid $white;
-                
+
                 .quickContact_btnInner {
                     padding: 13px 12px;
                 }
@@ -95,6 +100,62 @@ section.banner {
             line-height: 1;
         }
     }
+}
+
+section.deals {
+    padding: 140px 0;
+
+    .deal-superhero {
+        position: absolute;
+        width: 100%;
+        left: -9px;
+
+        img {
+            position: relative;
+            z-index: 100;
+        }
+    }
+
+    .deal-card {
+        border-radius: 20px;
+        background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
+        padding: 30px 26px;
+        color: $white;
+        text-align: center;
+        z-index: 101;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title {
+            font-weight: 900;
+            line-height: 1;
+            font-size: 1.5rem;
+        }
+
+        .image {
+            width: 100%;
+            padding: 42px 0 30px;
+        }
+
+        a {
+            transition: 0.2s all;
+
+            &:hover {
+                border: 0;
+                background-color: $secondary;
+            }
+        }
+
+    }
+}
+
+section.about-us {
+    background: imgUrl('about.png') right center;
+    // background-size: contain;
+    padding: 228px 0;
+    color: $white;
 }
 
 footer {

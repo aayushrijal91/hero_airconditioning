@@ -1,6 +1,6 @@
 // AOS.init({ duration: 1500 });
 
-document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
+document.querySelectorAll('a[href="#form"], a[href="#specials"], a[href="#about-us"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
@@ -11,9 +11,11 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 });
 
 $(window).on('scroll', () => {
-    if ($(this).scrollTop() >= 600) {
+    if ($(this).scrollTop() >= 500) {
+        $('.navigation-bar').addClass('shadow');
         $('#return-to-top').fadeIn(300);
     } else {
+        $('.navigation-bar').removeClass('shadow');
         $('#return-to-top').fadeOut(300);
     }
 });
