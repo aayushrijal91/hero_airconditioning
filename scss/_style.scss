@@ -34,7 +34,6 @@ section.banner {
         margin-top: 50px;
         background: radial-gradient(69.66% 90.92% at 23.65% 31.31%, #0199DC 0%, #1556BB 100%);
         border-radius: 20px;
-        color: $white;
         padding: 100px 0 115px;
         position: relative;
 
@@ -52,7 +51,6 @@ section.banner {
                 transform: skewX(19deg);
                 font-weight: 600;
                 padding: 15px 12px;
-                color: $white;
                 font-size: 0.875rem;
 
                 @include media-breakpoint-up(md) {
@@ -76,7 +74,6 @@ section.banner {
         padding: 30px 60px;
         font-size: 1.5rem;
         line-height: 1;
-        color: $white;
         font-weight: 800;
         position: relative;
 
@@ -90,7 +87,6 @@ section.banner {
             right: 0;
             top: -165px;
             z-index: 200;
-            color: $white;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -120,7 +116,6 @@ section.deals {
         border-radius: 20px;
         background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
         padding: 30px 26px;
-        color: $white;
         text-align: center;
         z-index: 101;
         height: 100%;
@@ -153,9 +148,74 @@ section.deals {
 
 section.about-us {
     background: imgUrl('about.png') right center;
-    // background-size: contain;
     padding: 228px 0;
-    color: $white;
+}
+
+section.brands {
+    padding: 125px 0;
+}
+
+section.services {
+    padding: 139px 0;
+
+    .service-card {
+        background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
+        border-radius: 20px;
+        padding: 30px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+        .service-img {
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            text-align: center;
+            padding: 30px 0;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+    }
+}
+
+section.why-us {
+    padding: 126px 0 142px;
+    position: relative;
+
+    .hero-van {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+section.packages {
+    padding: 220px 0;
+
+    .package-card {
+        border-radius: 20px;
+        background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
+        padding: 0 60px 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .top-card {
+            border-radius: 10px;
+            padding: 22px 40px;
+            background: $tertiary;
+            text-align: start;
+        }
+    }
 }
 
 footer {

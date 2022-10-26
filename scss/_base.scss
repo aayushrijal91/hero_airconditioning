@@ -9,6 +9,7 @@ body {
     padding: 0;
     letter-spacing: -0.02em;
     background-color: $primary;
+    color:$white;
 }
 
 .btn {
@@ -43,6 +44,10 @@ body {
 
 .text-decoration-none {
     text-decoration: none;
+}
+
+.container-fluid {
+    max-width: 1910px;
 }
 
 //Go To Top
