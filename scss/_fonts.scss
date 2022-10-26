@@ -1,0 +1,16 @@
+@import url("https://use.typekit.net/htw4amb.css");
+
+$font-articulat: "articulat-cf", sans-serif;
+
+$font-body: $font-articulat;
+
+$font-families: (
+    "articulat": "articulat-cf",
+);
+
+@each $name,
+$font-family in $font-families {
+    .font-#{$name} {
+        font-family: $font-family, sans-serif;
+    }
+}
