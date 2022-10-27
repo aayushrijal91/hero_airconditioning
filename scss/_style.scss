@@ -163,24 +163,50 @@ section.services {
         border-radius: 20px;
         padding: 30px;
         height: 100%;
+        overflow: hidden;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+        position: relative;
 
-        .service-img {
-            width: 100%;
-            border-radius: 20px;
-            overflow: hidden;
-        }
-
-        .title {
+        .service-card-description .title,
+        .service-card-inner .title {
             font-size: 1.5rem;
             font-weight: 800;
             text-align: center;
             padding: 30px 0;
             line-height: 1;
             text-transform: uppercase;
+        }
+
+        .service-card-inner {
+            transition: 0.3s all ease-in;
+
+            .service-img {
+                width: 100%;
+                border-radius: 20px;
+                overflow: hidden;
+            }
+        }
+
+        .service-card-description {
+            position: absolute;
+            padding: 0 30px;
+            top: 100%;
+            transition: 0.3s all ease-in;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+
+        &:hover {
+            .service-card-inner {
+                transform: translateY(-100%);
+            }
+
+            .service-card-description {
+                top: 0;
+            }
         }
     }
 }
@@ -275,11 +301,12 @@ section.testimonials {
         border-radius: 20px;
         padding: 30px;
         height: 100%;
-        transition: 0.5s all ease-in-out;
+        transition: 0.2s all ease-in-out;
 
         &:hover {
             background: linear-gradient(180deg, #198EE3 0%, #176FBF 100%);
             transition: 0.5s all ease-in-out;
+            transform: scale(1.05);
         }
     }
 }
@@ -337,7 +364,7 @@ section.form {
 footer {
     color: $grey;
     padding: 55px 0;
-    
+
     @include media-breakpoint-down(sm) {
         font-size: 0.875rem;
     }

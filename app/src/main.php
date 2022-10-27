@@ -13,9 +13,9 @@
                             <div class="row gx-2">
                                 <div class="col-auto"><a href="#specials" class="nav-link">Specials</a></div>
                                 <div class="col-auto"><a href="#about-us" class="nav-link">About Us</a></div>
-                                <div class="col-auto"><a href="#specials" class="nav-link">Services</a></div>
-                                <div class="col-auto"><a href="#specials" class="nav-link">Why Hero?</a></div>
-                                <div class="col-auto"><a href="#specials" class="nav-link">Reviews</a></div>
+                                <div class="col-auto"><a href="#services" class="nav-link">Services</a></div>
+                                <div class="col-auto"><a href="#why-us" class="nav-link">Why Hero?</a></div>
+                                <div class="col-auto"><a href="#testimonials" class="nav-link">Reviews</a></div>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="tel:<?= $phone_number ?>" class="btn">
+                                    <a href="#about-us" class="btn">
                                         <div class="quickContact_btn bordered">
                                             <div class="quickContact_btnInner text-white px-5">
                                                 About Us
@@ -257,9 +257,13 @@
                 <div class="row g-4">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-card">
-                            <div>
+                            <div class="service-card-inner">
                                 <?= renderImg('service-1.png', 'lib', 'service-img') ?>
-                                <div class="title">Split System Service & Repairs</div>
+                                <div class="title">Split System Service &amp; Repairs</div>
+                            </div>
+                            <div class="service-card-description">
+                                <div class="title">Split System Service &amp; Repairs</div>
+                                <div class="description">We cover all split system services, regardless of whether it’s an emergency repair or preventative maintenance. Our technicians complete ongoing training to ensure they are always up to date with the latest fault fining techniques. We also provide a lifetime guarantee on all workmanship that we complete.</div>
                             </div>
                             <div>
                                 <a href="#form" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
@@ -270,9 +274,13 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-card">
-                            <div>
+                            <div class="service-card-inner">
                                 <?= renderImg('service-2.png', 'lib', 'service-img') ?>
-                                <div class="title">Split System Sales & Installation</div>
+                                <div class="title">Split System Sales &amp; Installation</div>
+                            </div>
+                            <div class="service-card-description">
+                                <div class="title">Split System Sales &amp; Installation</div>
+                                <div class="description">For energy-efficient heating and cooling, look no further than a split system. It’s the optimal air con unit for your budget. From annual maintenance to emergency repairs and installation, we'll keep you happy with our tailored heating and cooling solutions.</div>
                             </div>
                             <div>
                                 <a href="#form" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
@@ -283,10 +291,14 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-card">
-                            <div>
+                            <div class="service-card-inner">
                                 <?= renderImg('service-3.png', 'lib', 'service-img') ?>
                                 <div class="title">Multi Split System</div>
                             </div>
+                            <div class="service-card-description">
+                                <div class="title">Multi Split System</div>
+                                <div class="description">A multi split-air conditioner is a type of split air conditioner. While a split air conditioner cools only one room at a time, a multi-split air conditioner lets you cool multiple rooms at a time. The beauty of the system is that it allows up to five individual air conditioning heads to be installed throughout your home, office or retail space, using just the one outdoor unit.</div>
+                            </div>
                             <div>
                                 <a href="#form" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
                                     Enquire
@@ -296,10 +308,14 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-card">
-                            <div>
+                            <div class="service-card-inner">
                                 <?= renderImg('service-4.png', 'lib', 'service-img') ?>
                                 <div class="title">Ducted System</div>
                             </div>
+                            <div class="service-card-description">
+                                <div class="title">Ducted System</div>
+                                <div class="description">Capable of heating and cooling every room within your home, ducted reverse cycle air conditioning systems, are the complete climate control solution. They deliver cooled or heated air to up to 10 separate zones in your home, allowing you to air condition your entire property or only a single room.</div>
+                            </div>
                             <div>
                                 <a href="#form" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
                                     Enquire
@@ -309,10 +325,14 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-card">
-                            <div>
+                            <div class="service-card-inner">
                                 <?= renderImg('service-5.png', 'lib', 'service-img') ?>
                                 <div class="title">Ceiling Cassette</div>
                             </div>
+                            <div class="service-card-description">
+                                <div class="title">Ceiling Cassette</div>
+                                <div class="description">Ceiling mounted cassette air conditioning systems are ideal for small homes, offices and any property where limited space is a consideration. These units fit neatly into your ceiling with no need for wall mounts or extensive duct systems. This makes them a discreet and compact alternative to traditional split system and ducted air conditioning.</div>
+                            </div>
                             <div>
                                 <a href="#form" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
                                     Enquire
@@ -322,9 +342,13 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-card">
-                            <div>
+                            <div class="service-card-inner">
                                 <?= renderImg('service-6.png', 'lib', 'service-img') ?>
                                 <div class="title">Air Conditioning Wall System</div>
+                            </div>
+                            <div class="service-card-description">
+                                <div class="title">Air Conditioning Wall System</div>
+                                <div class="description">Ideal for the living area, lounge and bedroom, split system air conditioners are the simple and cost effective way to heat and cool a single room or open space. When choosing a split system air conditioner, you should consider the size of the area you want to heat and cool. The height of the ceiling and the amount of floor space will dictate which size unit you need. The larger the space the larger capacity unit required.</div>
                             </div>
                             <div>
                                 <a href="#form" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
@@ -339,7 +363,7 @@
     </div>
 </section>
 
-<section class="why-us">
+<section class="why-us" id="why-us">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -442,7 +466,7 @@
                                 <li>Filters disinfected (kills 99.9% of bacteria)</li>
                                 <li>All covers cleaned and disinfected (kills 99.9% of bacteria)</li>
                             </ul>
-                            <a href="tel:<?= $phone_number ?>" class="btn d-inline-flex btn-tertiary fs-20 rounded-pill text-white py-3 px-md-5 ls-2">
+                            <a href="#form" class="btn d-inline-flex btn-tertiary fs-20 rounded-pill text-white py-3 px-md-5 ls-2">
                                 Enquire
                             </a>
                         </div>
@@ -480,7 +504,7 @@
                                 <li class="active">Filters disinfected (kills 99.9% of bacteria)</li>
                                 <li class="active">All covers cleaned and disinfected (kills 99.9% of bacteria)</li>
                             </ul>
-                            <a href="tel:<?= $phone_number ?>" class="btn d-inline-flex btn-secondary fs-20 rounded-pill text-white py-3 px-md-5 ls-2">
+                            <a href="#form" class="btn d-inline-flex btn-secondary fs-20 rounded-pill text-white py-3 px-md-5 ls-2">
                                 Enquire
                             </a>
                         </div>

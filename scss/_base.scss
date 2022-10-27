@@ -56,7 +56,7 @@ body {
     bottom: 95px;
     right: 55px;
     z-index: 9;
-    background: $primary;
+    background: $secondary;
     box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.3);
     width: 50px;
     height: 50px;
@@ -102,7 +102,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $primary;
+    background: $secondary;
 }
 
 ::-webkit-scrollbar-thumb:hover {
