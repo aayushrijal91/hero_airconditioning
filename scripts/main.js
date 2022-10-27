@@ -32,11 +32,17 @@ $(() => {
         arrows: false,
         responsive: [
             {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    dots: true,
+                    autoplay: true,
+                }
+            },
+            {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
-                    dots: true,
-                    autoplay: true,
                 }
             }
         ]
@@ -47,11 +53,17 @@ $(() => {
         arrows: false,
         responsive: [
             {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    dots: true,
+                    autoplay: true,
+                }
+            },
+            {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
-                    dots: true,
-                    autoplay: true,
                 }
             }
         ]

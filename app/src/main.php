@@ -1,8 +1,8 @@
 <header>
     <div class="navigation-bar py-5 py-md-4">
         <div class="container">
-            <div class="row justify-content-center justify-content-lg-between align-items-center">
-                <div class="col-auto">
+            <div class="row justify-content-center justify-content-md-between align-items-center">
+                <div class="col-auto d-xl-none">
                     <a href="javascript:void(0)" id="show-slide-nav">
                         <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25 2C21.0851 2 8.03546 2 2 2" stroke="white" stroke-width="3" stroke-linecap="round" />
@@ -18,7 +18,7 @@
                                 <?= renderImg("logo.png", "logo") ?>
                             </a>
                         </div>
-                        <div class="col-auto d-none d-md-block">
+                        <div class="col-auto d-none d-xl-block">
                             <div class="row gx-2">
                                 <div class="col-auto"><a href="#specials" class="nav-link">Specials</a></div>
                                 <div class="col-auto"><a href="#about-us" class="nav-link">About Us</a></div>
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-auto d-none d-md-block">
+                <div class="col-auto d-none d-xl-block">
                     <div class="row justify-content-center align-items-center gx-xxl-5">
                         <div class="col-12 col-md-auto">
                             <div class="row">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-auto d-md-none">
+                <div class="col-auto d-xl-none">
                     <a href="tel:<?= $phone_number ?>" class="">
                         <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M3.57151 0.0438109C3.12327 0.160069 2.5774 0.507127 1.7616 1.19453C0.87937 1.93788 0.205329 2.83083 0.066938 3.43964C-0.0212297 3.82751 -0.0226388 5.71623 0.0647238 6.44009C0.365712 8.93414 1.05933 11.302 2.12937 13.4886C2.65239 14.5573 2.89565 14.9817 3.57498 16.0104C6.09158 19.8215 9.67149 22.6606 13.7575 24.0857C15.4875 24.6892 17.0842 24.9934 18.5429 24.9976L19.3733 25L19.8513 24.7675C20.6685 24.3702 21.5637 23.6518 22.2801 22.8184C22.7238 22.3023 22.907 21.9681 22.9733 21.5536C23.0608 21.0074 22.9387 20.4768 22.5226 19.5947C22.2266 18.9672 22.0602 18.8142 21.2353 18.4109C20.2811 17.9444 19.015 17.4799 17.5889 17.0731C16.7868 16.8443 16.5575 16.8429 16.1008 17.0642C15.6602 17.2777 15.3031 17.5431 14.3893 18.3361C13.9908 18.6819 13.6428 18.9649 13.6159 18.9649C13.4718 18.9649 12.3847 18.2876 11.7262 17.7876C10.8034 17.0869 9.58815 15.9999 8.85926 15.2233C7.53614 13.8136 6.15776 11.6928 5.52977 10.1003L5.33637 9.61002L5.46042 9.50932C5.52866 9.45391 5.88692 9.13271 6.2566 8.7955C7.33177 7.81478 7.74865 7.2646 7.80532 6.75179C7.85428 6.30817 7.37656 3.85998 6.98559 2.55134C6.80105 1.93349 6.43505 1.11549 6.28121 0.977008C6.06693 0.784086 5.10402 0.241632 4.79529 0.139918C4.36351 -0.00234895 3.89207 -0.0393678 3.57151 0.0438109Z" fill="white" />
@@ -116,7 +116,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-8 mt-md-n4 position-relative">
+    <div class="container mt-8 mt-md-20 mt-lg-n4 position-relative">
         <div class="banner_cta">
             <div class="row gx-xl-5 gy-4">
                 <div class="col-md-auto">
@@ -246,8 +246,8 @@
                 <div class="text-italic fw-900 fs-64 lh-1 pb-3">We’re Sydney’s Trusted Air Conditioning Experts</div>
                 <p class="fs-20 py-md-4">Make your place feel cosy in any season with Hero Heating and Cooling. We specialise in professional split systems, ducted heating and aircon services in Sydney to help you maintain a favourable climate indoors. No more stuffy, cold and unbearably hot homes and offices!</p>
                 <p class="fs-20">With Hero, you’re guaranteed to get stellar and prompt service. Our air conditioning specialists are certified and have hundreds of units checked under their belt. Have no idea with what is wrong with yours? Don’t worry. When our technicians are onsite, every cooling and heating problem is solvable.</p>
-                <?= renderImg('about.png', 'background', "py-4 d-md-none") ?>
-                <div class="row pt-4 pt-md-5">
+                <?= renderImg('about.png', 'background', "py-4 d-xl-none") ?>
+                <div class="row justify-content-md-center justify-content-xl-start pt-4 pt-md-5">
                     <div class="col-6 col-md-auto">
                         <a href="#form" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-md-4">
                             View Services
@@ -266,8 +266,8 @@
 
 <section class="brands">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-4 fs-64 fw-900 text-italic text-white lh-1 pb-6 pb-md-0">Brands We Work With</div>
+        <div class="row align-items-center gy-6">
+            <div class="col-lg-4 fs-64 fw-900 text-italic text-white lh-1">Brands We Work With</div>
             <div class="col">
                 <div class="row row-cols-2 row-cols-md-6 align-items-center text-md-center gy-5">
                     <div><?= renderImg('daikin.png', 'logo') ?></div>
@@ -408,7 +408,7 @@
             <div class="col-lg-6">
                 <div class="text-italic fs-64 fw-900 lh-1 pb-1 pb-md-3">Why Call Hero?</div>
                 <div class="fs-20 fw-300 pt-4 pb-6">Does your place feel too hot or cold? Has the air quality got worse at your<br class="d-none d-lg-block"> home? You can't go wrong with our service in Sydney because:</div>
-                <div class="row d-none d-md-flex">
+                <div class="row d-none d-xl-flex">
                     <div class="col-auto">
                         <a href="tel:<?= $phone_number ?>" class="btn d-inline-flex btn-secondary fs-20 rounded-pill text-white py-3 px-md-4">
                             Call Us Today
@@ -463,16 +463,16 @@
             </div>
         </div>
     </div>
-    <?= renderImg('hero-van.png', 'lib', 'hero-van d-none d-md-block') ?>
+    <?= renderImg('hero-van.png', 'lib', 'hero-van py-md-5 py-lg-0 d-none d-md-block') ?>
     <?= renderImg('hero-van-sm.png', 'lib', 'd-md-none py-5') ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-6 col-md-auto">
-                <a href="tel:<?= $phone_number ?>" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-md-4">
+    <div class="container d-xl-none">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-4 col-lg-auto">
+                <a href="tel:<?= $phone_number ?>" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-lg-4">
                     Call Us Today
                 </a>
             </div>
-            <div class="col-6 col-md-auto">
+            <div class="col-6 col-md-4 col-lg-auto">
                 <a href="#form" class="btn border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4">
                     Enquire
                 </a>
@@ -482,7 +482,7 @@
 </section>
 
 <section class="packages">
-    <div class="d-md-none">
+    <div class="d-lg-none">
         <div class="text-center pb-5"><?= renderImg('package-title.png', "logo") ?></div>
         <div class="packages-slider" id="packages-slider">
             <div class="package bg-tertiary">
@@ -495,7 +495,7 @@
                     <div class="fs-800">Cover On</div>
                     <div class="text-light">Internal Unit</div>
                 </div>
-                <a href="#form" class="btn w-100 border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4">
+                <a href="#form" class="btn d-md-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-5">
                     Enquire
                 </a>
             </div>
@@ -509,7 +509,7 @@
                     <div class="fs-800">Cover On</div>
                     <div class="text-white">Full Units</div>
                 </div>
-                <a href="#form" class="btn w-100 border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4">
+                <a href="#form" class="btn d-md-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-5">
                     Enquire
                 </a>
             </div>
@@ -764,7 +764,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid d-none d-md-block">
+    <div class="container-fluid d-none d-lg-block">
         <div class="text-center pb-7"><?= renderImg('package-title.png', "logo") ?></div>
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -995,7 +995,7 @@
                     </form>
                 </div>
             </div>
-            <?= renderImg("form-superhero.png", "lib", "form-superhero") ?>
+            <?= renderImg("form-superhero.png", "lib", "form-superhero pt-md-5 pt-lg-0") ?>
         </div>
     </div>
 </section>
@@ -1004,7 +1004,7 @@
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center gy-5">
             <div class="col-auto"><?= renderImg("footer_logo.png", "logo") ?></div>
-            <div class="col-auto d-none d-md-block">
+            <div class="col-auto d-none d-lg-block">
                 <div class="row gx-2 gx-md-3 justify-content-center">
                     <div class="col-auto text-center"><?= $site ?></div>
                     <div class="col-auto">/</div>
@@ -1013,7 +1013,7 @@
                     <div class="col-auto text-center">All Rights Reserved</div>
                 </div>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
                         <a href="./" target="_blank">
@@ -1042,12 +1042,12 @@
                 </div>
             </div>
 
-            <div class="col-12 text-center d-md-none">
+            <div class="col-12 text-center d-lg-none">
                 <div class="pb-3"><?= $site ?></div>
                 <div class="lh-1">Copyright <?= date('Y') ?></div>
                 <div class="lh-1">All Rights Reserved</div>
             </div>
-            <div class="col-auto d-md-none">
+            <div class="col-auto d-lg-none">
                 <a href="https://www.aiims.com.au/like-our-work/" target="_blank"><?= renderImg("aiims.png", "logo") ?></a>
             </div>
         </div>

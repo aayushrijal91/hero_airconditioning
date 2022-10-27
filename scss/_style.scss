@@ -46,7 +46,7 @@ header {
     .navigation-bar {
         background-color: $primary;
         
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(xl) {
             z-index: 100000;
             position: fixed;
             top: 0;
@@ -72,6 +72,10 @@ header {
 
 section.banner {
     @include media-breakpoint-up(md) {
+        margin-top: 24px;
+    }
+
+    @include media-breakpoint-up(lg) {
         margin-top: 94px;
     }
 
@@ -82,6 +86,10 @@ section.banner {
         padding: 50px 0 360px;
 
         @include media-breakpoint-up(md) {
+            padding: 100px 0 450px;
+        }
+
+        @include media-breakpoint-up(xl) {
             margin-top: 50px;
             padding: 100px 0 115px;
         }
@@ -90,7 +98,7 @@ section.banner {
             position: absolute;
             z-index: 100;
 
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(xl) {
                 top: -80px;
                 right: 134px;
             }
@@ -135,6 +143,10 @@ section.banner {
         @include media-breakpoint-up(md) {
             background-color: $tertiary;
             border-radius: 20px;
+            padding: 60px;
+        }
+        
+        @include media-breakpoint-up(lg) {
             padding: 30px 60px;
         }
 
@@ -176,7 +188,7 @@ section.deals {
             z-index: 100;
         }
 
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(lg) {
             display: none;
         }
     }
@@ -263,8 +275,8 @@ section.deals {
 
 section.about-us {
     padding: 60px 0;
-
-    @include media-breakpoint-up(md) {
+    
+    @include media-breakpoint-up(lg) {
         background: imgUrl('about.png') right center;
         padding: 228px 0;
     }
@@ -303,6 +315,12 @@ section.services {
             text-transform: uppercase;
         }
 
+        @include media-breakpoint-down(lg) {
+            .service-card-inner .title {
+                padding: 60px 0;
+            }
+        }
+
         .service-card-inner {
             transition: 0.3s all ease-in;
 
@@ -320,6 +338,10 @@ section.services {
             transition: 0.3s all ease-in;
             font-size: 1.25rem;
             text-align: center;
+
+            @include media-breakpoint-down(lg) {
+                font-size: 0.875rem;
+            }
         }
 
         &:hover {
@@ -335,20 +357,25 @@ section.services {
 }
 
 section.why-us {
-    padding: 126px 0 142px;
     position: relative;
 
+    @include media-breakpoint-up(lg) {
+        padding: 126px 0 142px;
+    }
+
     .hero-van {
-        position: absolute;
-        bottom: 0;
-        left: 0;
+        @include media-breakpoint-up(xl) {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
     }
 }
 
 section.packages {
     padding: 58px 0;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         padding: 220px 0;
     }
 
@@ -428,6 +455,10 @@ section.packages {
             font-size: 0.875rem;
             font-weight: 300;
             color: $light;
+
+            @include media-breakpoint-up(md) {
+                font-size: 1.25rem;
+            }
         }
     }
 
@@ -602,9 +633,11 @@ section.form {
         }
 
         .form-superhero {
-            position: absolute;
-            top: -16px;
-            right: 87px;
+            @include media-breakpoint-up(lg) {
+                position: absolute;
+                top: -16px;
+                right: 87px;
+            }
 
             @include media-breakpoint-down(sm) {
                 display: none;
