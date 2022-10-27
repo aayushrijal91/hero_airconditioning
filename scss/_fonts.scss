@@ -14,3 +14,9 @@ $font-family in $font-families {
         font-family: $font-family, sans-serif;
     }
 }
+
+@include media-breakpoint-down(sm) {
+    .fs-20, .fs-18 {
+        font-size: 1rem !important;
+    }
+}

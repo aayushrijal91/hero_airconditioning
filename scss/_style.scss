@@ -28,20 +28,36 @@ header {
 }
 
 section.banner {
-    margin-top: 94px;
+    margin-top: 122px;
+
+    @include media-breakpoint-up(md) {
+        margin-top: 94px;
+    }
 
     .banner_inner {
-        margin-top: 50px;
         background: radial-gradient(69.66% 90.92% at 23.65% 31.31%, #0199DC 0%, #1556BB 100%);
         border-radius: 20px;
-        padding: 100px 0 115px;
         position: relative;
+        padding: 50px 0 360px;
+
+        @include media-breakpoint-up(md) {
+            margin-top: 50px;
+            padding: 100px 0 115px;
+        }
 
         .superhero-img {
             position: absolute;
-            top: -80px;
-            right: 134px;
             z-index: 100;
+
+            @include media-breakpoint-up(md) {
+                top: -80px;
+                right: 134px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                bottom: -80px;
+                right: 0;
+            }
         }
 
         .quickContact_btn {
@@ -69,13 +85,17 @@ section.banner {
     }
 
     .banner_cta {
-        background-color: $tertiary;
-        border-radius: 20px;
-        padding: 30px 60px;
+        padding: 50px 16px 10px;
         font-size: 1.5rem;
         line-height: 1;
         font-weight: 800;
         position: relative;
+
+        @include media-breakpoint-up(md) {
+            background-color: $tertiary;
+            border-radius: 20px;
+            padding: 30px 60px;
+        }
 
         .price_tag {
             position: absolute;
@@ -94,6 +114,10 @@ section.banner {
             text-align: center;
             font-style: italic;
             line-height: 1;
+
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
         }
     }
 }
@@ -109,6 +133,56 @@ section.deals {
         img {
             position: relative;
             z-index: 100;
+        }
+
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
+
+    #specials-slider {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+            margin: 0 12px;
+        }
+
+        .slick-dots {
+            display: flex !important;
+            bottom: -37px;
+            list-style-type: none;
+            justify-content: center;
+
+            li {
+                margin: 0 2.5px;
+                width: 10px;
+                height: 10px;
+
+                button:before {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+
+            button {
+                display: block;
+                width: 10px;
+                height: 10px;
+                padding: 0;
+                border: none;
+                background-color: $white;
+                text-indent: -9999px;
+                border-radius: 50%;
+                opacity: 0.2;
+            }
+
+            li.slick-active button {
+                background-color: $secondary;
+                opacity: 1;
+            }
         }
     }
 
@@ -147,8 +221,12 @@ section.deals {
 }
 
 section.about-us {
-    background: imgUrl('about.png') right center;
-    padding: 228px 0;
+    padding: 60px 0;
+    
+    @include media-breakpoint-up(md) {
+        background: imgUrl('about.png') right center;
+        padding: 228px 0;
+    }
 }
 
 section.brands {
@@ -156,7 +234,11 @@ section.brands {
 }
 
 section.services {
-    padding: 139px 0;
+    padding: 65px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 139px 0;
+    }
 
     .service-card {
         background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
@@ -223,7 +305,11 @@ section.why-us {
 }
 
 section.packages {
-    padding: 220px 0;
+    padding: 58px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 220px 0;
+    }
 
     .package-card {
         border-radius: 20px;
@@ -294,6 +380,40 @@ section.testimonials {
             height: inherit;
         }
 
+        .slick-dots {
+            display: flex !important;
+            bottom: -37px;
+            list-style-type: none;
+            justify-content: center;
+
+            li {
+                margin: 0 2.5px;
+                width: 10px;
+                height: 10px;
+
+                button:before {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+
+            button {
+                display: block;
+                width: 10px;
+                height: 10px;
+                padding: 0;
+                border: none;
+                background-color: $white;
+                text-indent: -9999px;
+                border-radius: 50%;
+                opacity: 0.2;
+            }
+
+            li.slick-active button {
+                background-color: $secondary;
+                opacity: 1;
+            }
+        }
     }
 
     .testimonial-slider-content {
@@ -312,14 +432,22 @@ section.testimonials {
 }
 
 section.form {
-    padding: 224px 0 44px;
+    padding: 120px 0 145px;
+
+    @include media-breakpoint-up(md) {
+        padding: 224px 0 44px;
+    }
 
     .form_inner {
         background: linear-gradient(180deg, #198EE3 0%, rgba(25, 142, 227, 0.5) 100%);
         border-radius: 20px;
-        padding: 70px;
+        padding: 30px;
         position: relative;
         color: $white;
+        
+        @include media-breakpoint-up(md) {
+            padding: 70px;
+        }
 
         form {
             padding-top: 50px;
@@ -357,6 +485,10 @@ section.form {
             position: absolute;
             top: -16px;
             right: 87px;
+
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
         }
     }
 }

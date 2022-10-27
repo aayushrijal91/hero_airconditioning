@@ -14,6 +14,31 @@ $(() => {
     $('#testimonial-slider').slick({
         slidesToShow: 5,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    autoplay: true,
+                }
+            }
+        ]
+    });
+
+    $('#specials-slider').slick({
+        slidesToShow: 4,
+        arrows:false,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    autoplay: true,
+                }
+            }
+        ]
     })
 });
 

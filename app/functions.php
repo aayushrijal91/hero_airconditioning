@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/env.php';
 
-$site = "Hero Airconditioning";
+$site = "Hero Air Conditioning";
 $phone_number = "02 9137 9699";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
