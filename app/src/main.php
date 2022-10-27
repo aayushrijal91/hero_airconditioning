@@ -482,7 +482,289 @@
 </section>
 
 <section class="packages">
-    <div class="container-fluid">
+    <div class="d-md-none">
+        <div class="text-center pb-5"><?= renderImg('package-title.png', "logo") ?></div>
+        <div class="packages-slider" id="packages-slider">
+            <div class="package bg-tertiary">
+                <div class="fs-20 fw-800">Standard</div>
+                <div class="fs-64 fw-800 d-flex align-items-center">
+                    <div class="fs-36 lh-1 pe-1">$</div>
+                    <div>99</div>
+                </div>
+                <div class="fs-20 lh-1 pb-3">
+                    <div class="fs-800">Cover On</div>
+                    <div class="text-light">Internal Unit</div>
+                </div>
+                <a href="#form" class="btn w-100 border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4">
+                    Enquire
+                </a>
+            </div>
+            <div class="package bg-secondary">
+                <div class="fs-20 fw-800">Premium</div>
+                <div class="fs-64 fw-800 d-flex align-items-center">
+                    <div class="fs-36 lh-1 pe-1">$</div>
+                    <div>189</div>
+                </div>
+                <div class="fs-20 lh-1 pb-3">
+                    <div class="fs-800">Cover On</div>
+                    <div class="text-white">Full Units</div>
+                </div>
+                <a href="#form" class="btn w-100 border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4">
+                    Enquire
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="package-description-slider" id="package-description-slider">
+                <div class="package-description-slider-content">
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Split system indoor deep clean &amp; sanitise</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Remove dirt, mould and bacteria from interior</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Clean fan barrel to increase airflow</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Clean filters for cleaner airflow</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Coils pressure washed for better cooling & to remove contaminates+</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Internal sanitisation</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Internal deodorisation</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Evaporator deep clean for better airflow and heat transfer</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Disassemble unit covers for deeper clean*</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Clean and sanitise internal covers</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Reassemble internal unit covers</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">External condensor coils cleaned from mould, dirt and debris*</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">External condensor sanitised*</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Full coil disinfection (kills 99.9% of bacteria)</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Filters disinfected (kills 99.9% of bacteria)</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">All covers cleaned and disinfected (kills 99.9% of bacteria)</div>
+                        <div class="col-2 text-center">
+                            -
+                        </div>
+                    </div>
+                </div>
+                <div class="package-description-slider-content">
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Split system indoor deep clean &amp; sanitise</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Remove dirt, mould and bacteria from interior</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Clean fan barrel to increase airflow</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Clean filters for cleaner airflow</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Coils pressure washed for better cooling & to remove contaminates+</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Internal sanitisation</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Internal deodorisation</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Evaporator deep clean for better airflow and heat transfer</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Disassemble unit covers for deeper clean*</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Clean and sanitise internal covers</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Reassemble internal unit covers</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">External condensor coils cleaned from mould, dirt and debris*</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">External condensor sanitised*</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Full coil disinfection (kills 99.9% of bacteria)</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">Filters disinfected (kills 99.9% of bacteria)</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center py-2">
+                        <div class="col">All covers cleaned and disinfected (kills 99.9% of bacteria)</div>
+                        <div class="col-auto">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6851 0.0886802C18.7958 0.224137 18.3415 0.52354 16.6023 2.1207C13.6182 4.86088 11.1135 7.76057 8.75507 11.205L8.25423 11.9364L7.48056 11.1261C6.22949 9.81579 5.22121 9.15395 4.07321 8.88927C3.74037 8.8125 2.86019 8.74971 1.76744 8.72472L0 8.68437L0.27907 8.88039C3.03274 10.8152 5.092 12.8499 6.70809 15.2331C7.02084 15.6943 7.52781 16.5055 7.83488 17.0358L8.39302 18L9.30186 16.4813C12.588 10.9902 16.3672 6.01644 20.8079 1.33824C21.4635 0.647567 22 0.0621519 22 0.0374148C22 -0.0342373 20.2359 0.0048302 19.6851 0.0886802Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-none d-md-block">
         <div class="text-center pb-7"><?= renderImg('package-title.png', "logo") ?></div>
         <div class="row justify-content-center">
             <div class="col-xl-11">

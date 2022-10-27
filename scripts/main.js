@@ -11,6 +11,22 @@ document.querySelectorAll('a[href="#form"], a[href="#specials"], a[href="#about-
 });
 
 $(() => {
+    $("#packages-slider").slick({
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "60px",
+        dots: true,
+        autoplay: true,
+        arrows: false,
+        asNavFor: "#package-description-slider"
+    });
+
+    $("#package-description-slider").slick({
+        slidesToShow: 1,
+        arrows: false,
+        asNavFor: "#packages-slider"
+    });
+
     $('#testimonial-slider').slick({
         slidesToShow: 5,
         arrows: false,
@@ -28,7 +44,7 @@ $(() => {
 
     $('#specials-slider').slick({
         slidesToShow: 4,
-        arrows:false,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 540,
