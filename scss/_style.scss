@@ -100,6 +100,10 @@ section.banner {
 
             @include media-breakpoint-up(xl) {
                 top: -80px;
+                right: 0;
+            }
+
+            @include media-breakpoint-up(xxl) {
                 right: 134px;
             }
 
@@ -186,6 +190,10 @@ section.deals {
         img {
             position: relative;
             z-index: 100;
+        }
+
+        @include media-breakpoint-only(xl) {
+            left: -20px;
         }
 
         @include media-breakpoint-only(lg) {
@@ -346,6 +354,10 @@ section.services {
             font-size: 1.25rem;
             text-align: center;
 
+            @include media-breakpoint-down(xxl) {
+                font-size: 1rem;
+            }
+
             @include media-breakpoint-down(xl) {
                 font-size: 0.875rem;
             }
@@ -373,8 +385,12 @@ section.why-us {
     .hero-van {
         @include media-breakpoint-up(xl) {
             position: absolute;
-            bottom: 0;
+            bottom: -50px;
             left: 0;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            bottom: 0;
         }
     }
 }

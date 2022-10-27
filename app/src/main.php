@@ -773,7 +773,7 @@
                         <div class="package-card">
                             <div class="top-card bg-tertiary">
                                 <div class="row justify-content-between">
-                                    <div class="col col-xl-auto">
+                                    <div class="col">
                                         <div class="fs-36 fw-800 lh-1">Hero Standard Package</div>
                                         <div class="fs-20">Standard Service &amp; Clean</div>
                                     </div>
@@ -811,7 +811,7 @@
                         <div class="package-card">
                             <div class="top-card bg-secondary">
                                 <div class="row justify-content-between">
-                                    <div class="col col-xl-auto">
+                                    <div class="col">
                                         <div class="fs-36 fw-800 lh-1">Hero Premium Package</div>
                                         <div class="fs-20">Full Service &amp; Clean</div>
                                     </div>
@@ -876,8 +876,8 @@
     ]; ?>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-xl-11">
-                <div class="d-none d-xl-block">
+            <div class="col-xxl-11">
+                <div class="d-none d-xxl-block">
                     <div class="row">
                         <?php foreach ($testimonials as $index => $testimonial) : ?>
                             <div class="col">
@@ -904,7 +904,7 @@
                     </div>
                 </div>
 
-                <div class="d-xl-none">
+                <div class="d-xxl-none">
                     <div class="testimonial-slider" id="testimonial-slider">
                         <?php foreach ($testimonials as $index => $testimonial) : ?>
                             <div class="testimonial-slider-content mt-6">
