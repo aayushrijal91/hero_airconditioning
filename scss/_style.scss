@@ -2,13 +2,56 @@
 @return url("../images/" + $path + "/" + $file) no-repeat;
 }
 
+.slide-navigation {
+    background: $tertiary;
+    padding: 8px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    transform: translateY(-100%);
+    transition: 0.2s all;
+
+    .main-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        ul.nav-list {
+            padding-inline-start: 0;
+            margin-bottom: 0;
+
+            li {
+                list-style: none;
+                padding: 16px 0;
+                
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    font-size: 2.25rem;
+                    font-weight: 700;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    &.show {
+        transform: translateY(0);
+    }
+}
+
 header {
     .navigation-bar {
-        position: fixed;
-        top: 0;
-        width: 100%;
         background-color: $primary;
-        z-index: 100000;
+        
+        @include media-breakpoint-up(md) {
+            z-index: 100000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
 
         &.shadow {
             box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.075);
@@ -28,8 +71,6 @@ header {
 }
 
 section.banner {
-    margin-top: 122px;
-
     @include media-breakpoint-up(md) {
         margin-top: 94px;
     }
@@ -374,7 +415,7 @@ section.packages {
         .slick-track {
             display: flex;
         }
-        
+
         .slick-slide {
             height: inherit;
             margin: 0 12px;

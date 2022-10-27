@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
                 <div class="col-auto">
-                    <a href="javascript:void(0)" id="slide-nav">
+                    <a href="javascript:void(0)" id="show-slide-nav">
                         <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25 2C21.0851 2 8.03546 2 2 2" stroke="white" stroke-width="3" stroke-linecap="round" />
                             <path d="M25 11.7871C21.0851 11.7871 8.03546 11.7871 2 11.7871" stroke="white" stroke-width="3" stroke-linecap="round" />
