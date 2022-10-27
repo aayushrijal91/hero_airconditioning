@@ -25,7 +25,7 @@
             li {
                 list-style: none;
                 padding: 16px 0;
-                
+
                 a {
                     color: $white;
                     text-decoration: none;
@@ -45,7 +45,7 @@
 header {
     .navigation-bar {
         background-color: $primary;
-        
+
         @include media-breakpoint-up(xl) {
             z-index: 100000;
             position: fixed;
@@ -75,7 +75,7 @@ section.banner {
         margin-top: 24px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         margin-top: 94px;
     }
 
@@ -86,7 +86,7 @@ section.banner {
         padding: 50px 0 360px;
 
         @include media-breakpoint-up(md) {
-            padding: 100px 0 450px;
+            padding: 100px 24px 450px;
         }
 
         @include media-breakpoint-up(xl) {
@@ -145,7 +145,7 @@ section.banner {
             border-radius: 20px;
             padding: 60px;
         }
-        
+
         @include media-breakpoint-up(lg) {
             padding: 30px 60px;
         }
@@ -186,6 +186,10 @@ section.deals {
         img {
             position: relative;
             z-index: 100;
+        }
+
+        @include media-breakpoint-only(lg) {
+            left: 32px;
         }
 
         @include media-breakpoint-down(lg) {
@@ -275,9 +279,12 @@ section.deals {
 
 section.about-us {
     padding: 60px 0;
-    
-    @include media-breakpoint-up(lg) {
+
+    @include media-breakpoint-up(xl) {
         background: imgUrl('about.png') right center;
+    }
+    
+    @include media-breakpoint-up(xl) {
         padding: 228px 0;
     }
 }
@@ -339,7 +346,7 @@ section.services {
             font-size: 1.25rem;
             text-align: center;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xl) {
                 font-size: 0.875rem;
             }
         }
@@ -375,7 +382,7 @@ section.why-us {
 section.packages {
     padding: 58px 0;
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         padding: 220px 0;
     }
 
@@ -473,12 +480,21 @@ section.packages {
         justify-content: space-between;
         align-items: center;
 
+        @include media-breakpoint-down(xl) {
+            padding: 0 24px 40px;
+        }
+
         .top-card {
             border-radius: 10px;
             padding: 25px 40px;
             text-align: start;
             width: 90%;
             margin-top: -20px;
+
+            @include media-breakpoint-down(xl) {
+                width: 100%;
+                padding: 25px 16px;
+            }
         }
 
         ul {
@@ -633,7 +649,7 @@ section.form {
         }
 
         .form-superhero {
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(xl) {
                 position: absolute;
                 top: -16px;
                 right: 87px;

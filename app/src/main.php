@@ -2,7 +2,7 @@
     <div class="navigation-bar py-5 py-md-4">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between align-items-center">
-                <div class="col-auto d-xl-none">
+                <div class="col-auto d-lg-none">
                     <a href="javascript:void(0)" id="show-slide-nav">
                         <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25 2C21.0851 2 8.03546 2 2 2" stroke="white" stroke-width="3" stroke-linecap="round" />
@@ -18,7 +18,7 @@
                                 <?= renderImg("logo.png", "logo") ?>
                             </a>
                         </div>
-                        <div class="col-auto d-none d-xl-block">
+                        <div class="col-auto d-none d-lg-block">
                             <div class="row gx-2">
                                 <div class="col-auto"><a href="#specials" class="nav-link">Specials</a></div>
                                 <div class="col-auto"><a href="#about-us" class="nav-link">About Us</a></div>
@@ -29,9 +29,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-auto d-none d-xl-block">
+                <div class="col-auto d-none d-lg-block">
                     <div class="row justify-content-center align-items-center gx-xxl-5">
-                        <div class="col-12 col-md-auto">
+                        <div class="col-12 col-md-auto d-none d-xl-block">
                             <div class="row">
                                 <div class="col-auto">
                                     <a href="">
@@ -64,12 +64,12 @@
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75914 0.0522396C7.61732 0.119348 7.4867 0.290341 7.45325 0.452577C7.40915 0.666725 7.56306 0.959207 7.76407 1.04323C7.81684 1.06528 8.01441 1.09217 8.20315 1.10299C9.29959 1.16585 10.1647 1.38197 11.025 1.80795C12.4212 2.49927 13.5186 3.5989 14.1875 4.97669C14.6171 5.86176 14.8117 6.608 14.8778 7.6242C14.9148 8.19133 14.9371 8.27705 15.0806 8.40311C15.3671 8.65475 15.7948 8.56656 15.946 8.22473C16.0045 8.09245 16.0085 8.04045 15.9907 7.64868C15.9122 5.92331 15.2718 4.25313 14.1794 2.92543C12.9073 1.37931 11.0858 0.353759 9.10895 0.070596C8.93703 0.045954 8.59242 0.017841 8.34315 0.00808425C7.93433 -0.00789549 7.8771 -0.00358002 7.75914 0.0522396ZM1.88981 0.808697C0.979376 1.23852 0.204008 1.61879 0.166812 1.65375C0.129616 1.68871 0.073603 1.77405 0.0423458 1.84338C-0.00969754 1.95889 -0.0112604 1.99842 0.0239665 2.31517C0.0765099 2.78806 0.194694 3.41621 0.341696 4.00414C1.19702 7.42484 3.48533 10.7178 6.63963 13.0672C8.75906 14.6458 11.1738 15.6544 13.5679 15.9611C13.9701 16.0126 14.0026 16.0127 14.1336 15.9627C14.2101 15.9335 14.3028 15.8774 14.3397 15.8382C14.3765 15.7989 14.76 15.0158 15.1917 14.0981C15.9743 12.4344 15.9766 12.4288 15.9637 12.2501C15.9543 12.1195 15.929 12.0425 15.8707 11.9662C15.8194 11.8991 15.2417 11.5079 14.2627 10.8773C13.4224 10.3361 12.6861 9.86818 12.6266 9.83756C12.5054 9.77527 12.2993 9.7651 12.1664 9.81492C12.118 9.83306 11.7619 10.1629 11.3751 10.5478C10.9883 10.9328 10.6322 11.2627 10.5838 11.281C10.2874 11.3929 9.40073 11.1781 8.61093 10.8029C7.92696 10.478 7.27743 10.0044 6.63634 9.36305C5.98469 8.71107 5.51952 8.06909 5.18376 7.35839C4.81667 6.58129 4.60812 5.70828 4.71927 5.41377C4.73753 5.36536 5.06732 5.00912 5.4521 4.62213C5.83688 4.23515 6.16655 3.8789 6.18468 3.83049C6.22569 3.72104 6.22725 3.52569 6.18799 3.42237C6.15186 3.32724 4.20275 0.289997 4.11073 0.185362C4.01983 0.0820413 3.8708 0.0250334 3.69463 0.0262217C3.56535 0.0270973 3.32154 0.132795 1.88981 0.808697ZM7.8254 2.7793C7.68709 2.81952 7.51277 3.00783 7.46894 3.16441C7.41681 3.35076 7.47091 3.53798 7.62013 3.68724C7.75504 3.82221 7.90636 3.87121 8.18917 3.87143C8.63918 3.87183 9.36895 4.05502 9.81758 4.28027C11.021 4.88437 11.849 5.99939 12.0774 7.32339C12.1037 7.47616 12.1254 7.69427 12.1255 7.8081C12.1257 8.09245 12.1745 8.24365 12.3096 8.37881C12.5352 8.60459 12.853 8.60562 13.0773 8.38125C13.2416 8.21692 13.2652 8.09124 13.2227 7.60856C13.1072 6.29563 12.5958 5.18514 11.6943 4.28931C10.8112 3.41177 9.73359 2.90645 8.47268 2.77865C8.09715 2.74059 7.95815 2.74074 7.8254 2.7793Z" fill="white" />
                                 </svg>
-                                <span class="ps-2"><?= $phone_number ?></span>
+                                <span class="ps-2 d-none d-xl-block"><?= $phone_number ?></span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-auto d-xl-none">
+                <div class="col-auto d-lg-none">
                     <a href="tel:<?= $phone_number ?>" class="">
                         <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M3.57151 0.0438109C3.12327 0.160069 2.5774 0.507127 1.7616 1.19453C0.87937 1.93788 0.205329 2.83083 0.066938 3.43964C-0.0212297 3.82751 -0.0226388 5.71623 0.0647238 6.44009C0.365712 8.93414 1.05933 11.302 2.12937 13.4886C2.65239 14.5573 2.89565 14.9817 3.57498 16.0104C6.09158 19.8215 9.67149 22.6606 13.7575 24.0857C15.4875 24.6892 17.0842 24.9934 18.5429 24.9976L19.3733 25L19.8513 24.7675C20.6685 24.3702 21.5637 23.6518 22.2801 22.8184C22.7238 22.3023 22.907 21.9681 22.9733 21.5536C23.0608 21.0074 22.9387 20.4768 22.5226 19.5947C22.2266 18.9672 22.0602 18.8142 21.2353 18.4109C20.2811 17.9444 19.015 17.4799 17.5889 17.0731C16.7868 16.8443 16.5575 16.8429 16.1008 17.0642C15.6602 17.2777 15.3031 17.5431 14.3893 18.3361C13.9908 18.6819 13.6428 18.9649 13.6159 18.9649C13.4718 18.9649 12.3847 18.2876 11.7262 17.7876C10.8034 17.0869 9.58815 15.9999 8.85926 15.2233C7.53614 13.8136 6.15776 11.6928 5.52977 10.1003L5.33637 9.61002L5.46042 9.50932C5.52866 9.45391 5.88692 9.13271 6.2566 8.7955C7.33177 7.81478 7.74865 7.2646 7.80532 6.75179C7.85428 6.30817 7.37656 3.85998 6.98559 2.55134C6.80105 1.93349 6.43505 1.11549 6.28121 0.977008C6.06693 0.784086 5.10402 0.241632 4.79529 0.139918C4.36351 -0.00234895 3.89207 -0.0393678 3.57151 0.0438109Z" fill="white" />
@@ -87,9 +87,9 @@
             <div class="col-xxl-11">
                 <div class="banner_inner">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-xl-6">
                             <div class="fs-112 fw-900 text-italic lh-088 text-center ">Our Air Conditioning Hero is Here!</div>
-                            <div class="row justify-content-center gx-0 pt-4 pt-md-6">
+                            <div class="row justify-content-center gx-0 pt-4 pt-md-5 pt-xl-6">
                                 <div class="col-auto">
                                     <a href="#form" class="btn">
                                         <div class="quickContact_btn bg-secondary">
@@ -116,7 +116,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-8 mt-md-20 mt-lg-n4 position-relative">
+    <div class="container mt-8 mt-md-20 mt-xl-n4 position-relative">
         <div class="banner_cta">
             <div class="row gx-xl-5 gy-4">
                 <div class="col-md-auto">
@@ -186,7 +186,7 @@
     <div class="container">
         <div class="text-center d-md-none pb-5"><?= renderImg('hero-specials.png', 'logo') ?></div>
         <div class="row justify-content-end position-relative">
-            <div class="col-lg-11 position-relative" style="z-index: 100">
+            <div class="col-lg-10 col-xl-11 position-relative" style="z-index: 100">
                 <div class="row" id="specials-slider">
                     <div class="col-md-6 col-lg">
                         <div class="deal-card">
@@ -242,18 +242,18 @@
 <section class="about-us" id="about-us">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-xl-6">
                 <div class="text-italic fw-900 fs-64 lh-1 pb-3">We’re Sydney’s Trusted Air Conditioning Experts</div>
                 <p class="fs-20 py-md-4">Make your place feel cosy in any season with Hero Heating and Cooling. We specialise in professional split systems, ducted heating and aircon services in Sydney to help you maintain a favourable climate indoors. No more stuffy, cold and unbearably hot homes and offices!</p>
                 <p class="fs-20">With Hero, you’re guaranteed to get stellar and prompt service. Our air conditioning specialists are certified and have hundreds of units checked under their belt. Have no idea with what is wrong with yours? Don’t worry. When our technicians are onsite, every cooling and heating problem is solvable.</p>
-                <?= renderImg('about.png', 'background', "py-4 d-xl-none") ?>
+                <div class="text-center"><?= renderImg('about.png', 'background', "py-4 d-xl-none") ?></div>
                 <div class="row justify-content-md-center justify-content-xl-start pt-4 pt-md-5">
-                    <div class="col-6 col-md-auto">
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-auto">
                         <a href="#form" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-md-4">
                             View Services
                         </a>
                     </div>
-                    <div class="col-6 col-md-auto">
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-auto">
                         <a href="#testimonials" class="btn border-2 border-white fs-20 rounded-pill text-white py-3 px-md-4">
                             See Reviews
                         </a>
@@ -294,7 +294,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-11">
                 <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="service-card">
                             <div class="service-card-inner">
                                 <?= renderImg('service-1.png', 'lib', 'service-img') ?>
@@ -311,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="service-card">
                             <div class="service-card-inner">
                                 <?= renderImg('service-2.png', 'lib', 'service-img') ?>
@@ -328,7 +328,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="service-card">
                             <div class="service-card-inner">
                                 <?= renderImg('service-3.png', 'lib', 'service-img') ?>
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="service-card">
                             <div class="service-card-inner">
                                 <?= renderImg('service-4.png', 'lib', 'service-img') ?>
@@ -362,7 +362,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="service-card">
                             <div class="service-card-inner">
                                 <?= renderImg('service-5.png', 'lib', 'service-img') ?>
@@ -379,7 +379,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="service-card">
                             <div class="service-card-inner">
                                 <?= renderImg('service-6.png', 'lib', 'service-img') ?>
@@ -405,7 +405,7 @@
 <section class="why-us" id="why-us">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5 col-xl-6">
                 <div class="text-italic fs-64 fw-900 lh-1 pb-1 pb-md-3">Why Call Hero?</div>
                 <div class="fs-20 fw-300 pt-4 pb-6">Does your place feel too hot or cold? Has the air quality got worse at your<br class="d-none d-lg-block"> home? You can't go wrong with our service in Sydney because:</div>
                 <div class="row d-none d-xl-flex">
@@ -421,7 +421,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg">
                 <div class="row gy-7 gx-xl-7">
                     <div class="col-lg-6">
                         <div class="d-flex align-items-center pb-1">
@@ -463,7 +463,7 @@
             </div>
         </div>
     </div>
-    <?= renderImg('hero-van.png', 'lib', 'hero-van py-md-5 py-lg-0 d-none d-md-block') ?>
+    <?= renderImg('hero-van.png', 'lib', 'hero-van py-md-5 py-xl-0 d-none d-md-block') ?>
     <?= renderImg('hero-van-sm.png', 'lib', 'd-md-none py-5') ?>
     <div class="container d-xl-none">
         <div class="row justify-content-center">
@@ -773,7 +773,7 @@
                         <div class="package-card">
                             <div class="top-card bg-tertiary">
                                 <div class="row justify-content-between">
-                                    <div class="col-auto">
+                                    <div class="col col-xl-auto">
                                         <div class="fs-36 fw-800 lh-1">Hero Standard Package</div>
                                         <div class="fs-20">Standard Service &amp; Clean</div>
                                     </div>
@@ -811,7 +811,7 @@
                         <div class="package-card">
                             <div class="top-card bg-secondary">
                                 <div class="row justify-content-between">
-                                    <div class="col-auto">
+                                    <div class="col col-xl-auto">
                                         <div class="fs-36 fw-800 lh-1">Hero Premium Package</div>
                                         <div class="fs-20">Full Service &amp; Clean</div>
                                     </div>
@@ -937,7 +937,7 @@
     <div class="container">
         <div class="form_inner">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <div class="text-italic fs-64 fw-900 lh-1">Enquire Now!</div>
                     <div class="row align-items-center py-4 d-none d-md-flex">
                         <div class="col-auto fs-20">Or Call Us Today</div>
@@ -995,7 +995,7 @@
                     </form>
                 </div>
             </div>
-            <?= renderImg("form-superhero.png", "lib", "form-superhero pt-md-5 pt-lg-0") ?>
+            <div class="text-center"><?= renderImg("form-superhero.png", "lib", "form-superhero pt-md-5 pt-xl-0") ?></div>
         </div>
     </div>
 </section>
