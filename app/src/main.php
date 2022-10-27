@@ -19,12 +19,14 @@
                             </a>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <div class="row gx-2">
+                            <div class="row">
                                 <div class="col-auto"><a href="#specials" class="nav-link">Specials</a></div>
                                 <div class="col-auto"><a href="#about-us" class="nav-link">About Us</a></div>
                                 <div class="col-auto"><a href="#services" class="nav-link">Services</a></div>
+                                <div class="col-auto"><a href="#packages" class="nav-link">Prices</a></div>
                                 <div class="col-auto"><a href="#why-us" class="nav-link">Why Hero?</a></div>
                                 <div class="col-auto"><a href="#testimonials" class="nav-link">Reviews</a></div>
+                                <div class="col-auto"><a href="#form" class="nav-link">Book Online</a></div>
                             </div>
                         </div>
                     </div>
@@ -34,14 +36,14 @@
                         <div class="col-12 col-md-auto d-none d-xl-block">
                             <div class="row">
                                 <div class="col-auto">
-                                    <a href="">
+                                    <a href="<?= $facebook ?>" target="_blank">
                                         <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M11.8489 14.4038L12.5542 9.73012H8.46347V6.71483C8.46347 5.65947 9.0277 4.45335 10.8615 4.45335H12.6952V0.533464C12.6952 0.533464 11.0025 0.231934 9.30982 0.231934C5.92443 0.231934 3.6675 2.49341 3.6675 6.4133V9.88089H0V14.5546H3.80856V25.5604C4.51385 25.7112 5.3602 25.7112 6.20655 25.7112C7.05289 25.7112 7.75818 25.7112 8.60453 25.5604V14.4038H11.8489Z" fill="white" />
                                         </svg>
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="">
+                                    <a href="<?= $instagram ?>" target="_blank">
                                         <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M20.4146 4.75476C19.5178 4.75476 18.9199 5.35784 18.9199 6.26246C18.9199 7.16708 19.5178 7.77016 20.4146 7.77016C21.3115 7.77016 21.9094 7.16708 21.9094 6.26246C21.9094 5.35784 21.162 4.75476 20.4146 4.75476Z" fill="white" />
                                             <path d="M13.8389 6.71277C10.401 6.71277 7.56104 9.57811 7.56104 13.0467C7.56104 16.5153 10.401 19.3806 13.8389 19.3806C17.2768 19.3806 20.1168 16.5153 20.1168 13.0467C19.9673 9.4273 17.2768 6.71277 13.8389 6.71277ZM13.8389 16.9677C11.5968 16.9677 9.80313 15.158 9.80313 12.8959C9.80313 10.6338 11.5968 8.97488 13.8389 8.97488C16.081 8.97488 17.8747 10.7846 17.8747 13.0467C17.8747 15.3088 15.9315 16.9677 13.8389 16.9677Z" fill="white" />
@@ -50,10 +52,16 @@
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="">
-                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0.944947 7.22816H5.35758V21.9436H0.944947V7.22816ZM3.21431 -0.000488281C4.60114 -0.000488281 5.73581 1.16126 5.73581 2.58117C5.73581 4.00108 4.60114 5.16283 3.21431 5.16283C1.82748 5.16283 0.6928 4.00108 0.6928 2.58117C0.566725 1.16126 1.82748 -0.000488281 3.21431 -0.000488281Z" fill="white" />
-                                            <path d="M8.25781 7.2263H12.5443V9.29157C13.1747 8.12985 14.5614 6.96814 16.7047 6.96814C21.2433 6.96814 21.9998 10.066 21.9998 13.9384V21.9413H17.5872V14.842C17.5872 13.1639 17.5872 10.9696 15.3179 10.9696C13.0486 10.9696 12.6704 12.7767 12.6704 14.7129V21.9413H8.25781V7.2263Z" fill="white" />
+                                    <a href="<?= $youtube ?>" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="<?= $gmb ?>" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-google" viewBox="0 0 16 16">
+                                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
                                         </svg>
                                     </a>
                                 </div>
@@ -64,7 +72,7 @@
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75914 0.0522396C7.61732 0.119348 7.4867 0.290341 7.45325 0.452577C7.40915 0.666725 7.56306 0.959207 7.76407 1.04323C7.81684 1.06528 8.01441 1.09217 8.20315 1.10299C9.29959 1.16585 10.1647 1.38197 11.025 1.80795C12.4212 2.49927 13.5186 3.5989 14.1875 4.97669C14.6171 5.86176 14.8117 6.608 14.8778 7.6242C14.9148 8.19133 14.9371 8.27705 15.0806 8.40311C15.3671 8.65475 15.7948 8.56656 15.946 8.22473C16.0045 8.09245 16.0085 8.04045 15.9907 7.64868C15.9122 5.92331 15.2718 4.25313 14.1794 2.92543C12.9073 1.37931 11.0858 0.353759 9.10895 0.070596C8.93703 0.045954 8.59242 0.017841 8.34315 0.00808425C7.93433 -0.00789549 7.8771 -0.00358002 7.75914 0.0522396ZM1.88981 0.808697C0.979376 1.23852 0.204008 1.61879 0.166812 1.65375C0.129616 1.68871 0.073603 1.77405 0.0423458 1.84338C-0.00969754 1.95889 -0.0112604 1.99842 0.0239665 2.31517C0.0765099 2.78806 0.194694 3.41621 0.341696 4.00414C1.19702 7.42484 3.48533 10.7178 6.63963 13.0672C8.75906 14.6458 11.1738 15.6544 13.5679 15.9611C13.9701 16.0126 14.0026 16.0127 14.1336 15.9627C14.2101 15.9335 14.3028 15.8774 14.3397 15.8382C14.3765 15.7989 14.76 15.0158 15.1917 14.0981C15.9743 12.4344 15.9766 12.4288 15.9637 12.2501C15.9543 12.1195 15.929 12.0425 15.8707 11.9662C15.8194 11.8991 15.2417 11.5079 14.2627 10.8773C13.4224 10.3361 12.6861 9.86818 12.6266 9.83756C12.5054 9.77527 12.2993 9.7651 12.1664 9.81492C12.118 9.83306 11.7619 10.1629 11.3751 10.5478C10.9883 10.9328 10.6322 11.2627 10.5838 11.281C10.2874 11.3929 9.40073 11.1781 8.61093 10.8029C7.92696 10.478 7.27743 10.0044 6.63634 9.36305C5.98469 8.71107 5.51952 8.06909 5.18376 7.35839C4.81667 6.58129 4.60812 5.70828 4.71927 5.41377C4.73753 5.36536 5.06732 5.00912 5.4521 4.62213C5.83688 4.23515 6.16655 3.8789 6.18468 3.83049C6.22569 3.72104 6.22725 3.52569 6.18799 3.42237C6.15186 3.32724 4.20275 0.289997 4.11073 0.185362C4.01983 0.0820413 3.8708 0.0250334 3.69463 0.0262217C3.56535 0.0270973 3.32154 0.132795 1.88981 0.808697ZM7.8254 2.7793C7.68709 2.81952 7.51277 3.00783 7.46894 3.16441C7.41681 3.35076 7.47091 3.53798 7.62013 3.68724C7.75504 3.82221 7.90636 3.87121 8.18917 3.87143C8.63918 3.87183 9.36895 4.05502 9.81758 4.28027C11.021 4.88437 11.849 5.99939 12.0774 7.32339C12.1037 7.47616 12.1254 7.69427 12.1255 7.8081C12.1257 8.09245 12.1745 8.24365 12.3096 8.37881C12.5352 8.60459 12.853 8.60562 13.0773 8.38125C13.2416 8.21692 13.2652 8.09124 13.2227 7.60856C13.1072 6.29563 12.5958 5.18514 11.6943 4.28931C10.8112 3.41177 9.73359 2.90645 8.47268 2.77865C8.09715 2.74059 7.95815 2.74074 7.8254 2.7793Z" fill="white" />
                                 </svg>
-                                <span class="ps-2 d-none d-xl-block"><?= $phone_number ?></span>
+                                <span class="ps-2 d-none d-xxl-block"><?= $phone_number ?></span>
                             </a>
                         </div>
                     </div>
@@ -249,7 +257,7 @@
                 <div class="text-center"><?= renderImg('about.png', 'background', "py-4 d-xl-none") ?></div>
                 <div class="row justify-content-md-center justify-content-xl-start pt-4 pt-md-5">
                     <div class="col-6 col-md-4 col-lg-3 col-xl-auto">
-                        <a href="#form" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-md-4">
+                        <a href="#services" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-md-4">
                             View Services
                         </a>
                     </div>
@@ -396,6 +404,57 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="service-card">
+                            <div class="service-card-inner">
+                                <?= renderImg('service-7.png', 'lib', 'service-img') ?>
+                                <div class="title">Plumbing Services</div>
+                            </div>
+                            <div class="service-card-description">
+                                <div class="title">Plumbing Services</div>
+                                <div class="description">The plumbing pipes are vulnerable. They cannot be relied on indefinitely, because a burst can occur at any time. If you face this situation, you do not need to panic. It is true that burst pipes can cause considerable damage to your home such as general flooding, damage to your appliances and electrical installations, water infiltration to the flooring and etc.</div>
+                            </div>
+                            <div>
+                                <a href="https://www.heroplumbing.com.au/plumbing-services-sydney" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-5 px-md-4">
+                                    Enquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="service-card">
+                            <div class="service-card-inner">
+                                <?= renderImg('service-8.png', 'lib', 'service-img') ?>
+                                <div class="title">Gas Heating</div>
+                            </div>
+                            <div class="service-card-description">
+                                <div class="title">Gas Heating</div>
+                                <div class="description">If your gas heater isn’t functioning correctly, that can be a health and safety hazard. A faulty gas appliance can cause accidents and household fires. Also, it can create pollution in the indoor spaces of your home due to CO leaks and particulate matter. We at Hero Plumbing always emphasise timely repairs and maintenance of gas heaters in Sydney.</div>
+                            </div>
+                            <div>
+                                <a href="https://www.heroplumbing.com.au/gas-heater-service/sydney" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-5 px-md-4">
+                                    Enquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="service-card">
+                            <div class="service-card-inner">
+                                <?= renderImg('service-9.png', 'lib', 'service-img') ?>
+                                <div class="title">Subfloor Ventilation</div>
+                            </div>
+                            <div class="service-card-description">
+                                <div class="title">Subfloor Ventilation</div>
+                                <div class="description">Nothing beats the feeling of coming home to a place where you can relax and create special memories with your family. This is the reason homeowners spend money on cleaning tools and home maintenance services. You want to keep it safe, healthy, and pest-free. But when it comes to home maintenance services, very few pay close attention to what is happening right under their homes, the subfloor, specifically subfloor ventilation.</div>
+                            </div>
+                            <div>
+                                <a href="https://www.heroplumbing.com.au/sub-floor-ventilation-sydney" class="btn d-inline-flex border-2 border-white fs-20 rounded-pill text-white py-3 px-5 px-md-4">
+                                    Enquire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -481,7 +540,7 @@
     </div>
 </section>
 
-<section class="packages">
+<section class="packages" id="packages">
     <div class="d-lg-none">
         <div class="text-center pb-5"><?= renderImg('package-title.png', "logo") ?></div>
         <div class="packages-slider" id="packages-slider">
@@ -817,7 +876,7 @@
                                     </div>
                                     <div class="col-auto fs-64 fw-800 lh-1 d-flex align-items-center">
                                         <div class="fs-36 lh-1 pe-1">$</div>
-                                        <div>99</div>
+                                        <div>189</div>
                                     </div>
                                 </div>
                             </div>
@@ -938,7 +997,7 @@
         <div class="form_inner">
             <div class="row">
                 <div class="col-xl-6">
-                    <div class="text-italic fs-64 fw-900 lh-1">Enquire Now!</div>
+                    <div class="text-italic fs-44 fw-900 lh-1 text-capitalize">Get $100 off your installation if you trade in your old aircon unit</div>
                     <div class="row align-items-center py-4 d-none d-md-flex">
                         <div class="col-auto fs-20">Or Call Us Today</div>
                         <div class="col-auto">
@@ -1002,9 +1061,9 @@
 
 <footer>
     <div class="container">
-        <div class="row justify-content-center justify-content-lg-between align-items-center gy-5">
+        <div class="row justify-content-center justify-content-xl-between align-items-center gy-5">
             <div class="col-auto"><?= renderImg("footer_logo.png", "logo") ?></div>
-            <div class="col-auto d-none d-lg-block">
+            <div class="col-xl-auto d-none d-lg-block">
                 <div class="row gx-2 gx-md-3 justify-content-center">
                     <div class="col-auto text-center"><?= $site ?></div>
                     <div class="col-auto">/</div>
@@ -1013,17 +1072,20 @@
                     <div class="col-auto text-center">All Rights Reserved</div>
                 </div>
             </div>
-            <div class="col-lg-auto">
+            <div class="col-lg-auto text-center">
+                License No. - L184852
+            </div>
+            <div class="col-xl-auto">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                        <a href="./" target="_blank">
+                        <a href="<?= $facebook ?>" target="_blank">
                             <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.8489 14.4038L12.5542 9.73012H8.46347V6.71483C8.46347 5.65947 9.0277 4.45335 10.8615 4.45335H12.6952V0.533464C12.6952 0.533464 11.0025 0.231934 9.30982 0.231934C5.92443 0.231934 3.6675 2.49341 3.6675 6.4133V9.88089H0V14.5546H3.80856V25.5604C4.51385 25.7112 5.3602 25.7112 6.20655 25.7112C7.05289 25.7112 7.75818 25.7112 8.60453 25.5604V14.4038H11.8489Z" fill="white" />
                             </svg>
                         </a>
                     </div>
                     <div class="col-auto">
-                        <a href="./" target="_blank">
+                        <a href="<?= $instagram ?>" target="_blank">
                             <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.4146 4.75476C19.5178 4.75476 18.9199 5.35784 18.9199 6.26246C18.9199 7.16708 19.5178 7.77016 20.4146 7.77016C21.3115 7.77016 21.9094 7.16708 21.9094 6.26246C21.9094 5.35784 21.162 4.75476 20.4146 4.75476Z" fill="white" />
                                 <path d="M13.8389 6.71277C10.401 6.71277 7.56104 9.57811 7.56104 13.0467C7.56104 16.5153 10.401 19.3806 13.8389 19.3806C17.2768 19.3806 20.1168 16.5153 20.1168 13.0467C19.9673 9.4273 17.2768 6.71277 13.8389 6.71277ZM13.8389 16.9677C11.5968 16.9677 9.80313 15.158 9.80313 12.8959C9.80313 10.6338 11.5968 8.97488 13.8389 8.97488C16.081 8.97488 17.8747 10.7846 17.8747 13.0467C17.8747 15.3088 15.9315 16.9677 13.8389 16.9677Z" fill="white" />
@@ -1032,10 +1094,16 @@
                         </a>
                     </div>
                     <div class="col-auto">
-                        <a href="./" target="_blank">
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.944947 7.22816H5.35758V21.9436H0.944947V7.22816ZM3.21431 -0.000488281C4.60114 -0.000488281 5.73581 1.16126 5.73581 2.58117C5.73581 4.00108 4.60114 5.16283 3.21431 5.16283C1.82748 5.16283 0.6928 4.00108 0.6928 2.58117C0.566725 1.16126 1.82748 -0.000488281 3.21431 -0.000488281Z" fill="white" />
-                                <path d="M8.25781 7.2263H12.5443V9.29157C13.1747 8.12985 14.5614 6.96814 16.7047 6.96814C21.2433 6.96814 21.9998 10.066 21.9998 13.9384V21.9413H17.5872V14.842C17.5872 13.1639 17.5872 10.9696 15.3179 10.9696C13.0486 10.9696 12.6704 12.7767 12.6704 14.7129V21.9413H8.25781V7.2263Z" fill="white" />
+                        <a href="<?= $youtube ?>" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="<?= $gmb ?>" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-google" viewBox="0 0 16 16">
+                                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
                             </svg>
                         </a>
                     </div>
