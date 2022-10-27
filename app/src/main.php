@@ -25,14 +25,14 @@
                         <div class="col-12 col-md-auto">
                             <div class="row">
                                 <div class="col-auto">
-                                    <a href="" class="">
+                                    <a href="">
                                         <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M11.8489 14.4038L12.5542 9.73012H8.46347V6.71483C8.46347 5.65947 9.0277 4.45335 10.8615 4.45335H12.6952V0.533464C12.6952 0.533464 11.0025 0.231934 9.30982 0.231934C5.92443 0.231934 3.6675 2.49341 3.6675 6.4133V9.88089H0V14.5546H3.80856V25.5604C4.51385 25.7112 5.3602 25.7112 6.20655 25.7112C7.05289 25.7112 7.75818 25.7112 8.60453 25.5604V14.4038H11.8489Z" fill="white" />
                                         </svg>
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="" class="">
+                                    <a href="">
                                         <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M20.4146 4.75476C19.5178 4.75476 18.9199 5.35784 18.9199 6.26246C18.9199 7.16708 19.5178 7.77016 20.4146 7.77016C21.3115 7.77016 21.9094 7.16708 21.9094 6.26246C21.9094 5.35784 21.162 4.75476 20.4146 4.75476Z" fill="white" />
                                             <path d="M13.8389 6.71277C10.401 6.71277 7.56104 9.57811 7.56104 13.0467C7.56104 16.5153 10.401 19.3806 13.8389 19.3806C17.2768 19.3806 20.1168 16.5153 20.1168 13.0467C19.9673 9.4273 17.2768 6.71277 13.8389 6.71277ZM13.8389 16.9677C11.5968 16.9677 9.80313 15.158 9.80313 12.8959C9.80313 10.6338 11.5968 8.97488 13.8389 8.97488C16.081 8.97488 17.8747 10.7846 17.8747 13.0467C17.8747 15.3088 15.9315 16.9677 13.8389 16.9677Z" fill="white" />
@@ -41,7 +41,7 @@
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="" class="">
+                                    <a href="">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M0.944947 7.22816H5.35758V21.9436H0.944947V7.22816ZM3.21431 -0.000488281C4.60114 -0.000488281 5.73581 1.16126 5.73581 2.58117C5.73581 4.00108 4.60114 5.16283 3.21431 5.16283C1.82748 5.16283 0.6928 4.00108 0.6928 2.58117C0.566725 1.16126 1.82748 -0.000488281 3.21431 -0.000488281Z" fill="white" />
                                             <path d="M8.25781 7.2263H12.5443V9.29157C13.1747 8.12985 14.5614 6.96814 16.7047 6.96814C21.2433 6.96814 21.9998 10.066 21.9998 13.9384V21.9413H17.5872V14.842C17.5872 13.1639 17.5872 10.9696 15.3179 10.9696C13.0486 10.9696 12.6704 12.7767 12.6704 14.7129V21.9413H8.25781V7.2263Z" fill="white" />
@@ -405,25 +405,85 @@
 
 <section class="packages">
     <div class="container-fluid">
-        <div class="text-center pb-6"><?= renderImg('package-title.png',"logo") ?></div>
+        <div class="text-center pb-7"><?= renderImg('package-title.png', "logo") ?></div>
         <div class="row justify-content-center">
             <div class="col-xl-11">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="package-card">
-                            <div class="top-card">
+                            <div class="top-card bg-tertiary">
                                 <div class="row justify-content-between">
                                     <div class="col-auto">
                                         <div class="fs-36 fw-800 lh-1">Hero Standard Package</div>
                                         <div class="fs-20">Standard Service &amp; Clean</div>
                                     </div>
-                                    <div class="col-auto fs-64 fw-800 lh-1">99</div>
+                                    <div class="col-auto fs-64 fw-800 lh-1 d-flex align-items-center">
+                                        <div class="fs-36 lh-1 pe-1">$</div>
+                                        <div>99</div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <ul>
+                                <li class="active">Split system indoor deep clean & sanitise</li>
+                                <li class="active">Remove dirt, mould and bacteria from interior</li>
+                                <li class="active">Clean fan barrel to increase airflow</li>
+                                <li class="active">Clean filters for cleaner airflow</li>
+                                <li class="active">Coils pressure washed for better cooling & to remove contaminates+</li>
+                                <li class="active">Internal sanitisation</li>
+                                <li class="active">Internal deodorisation</li>
+                                <li class="active">Evaporator deep clean for better airflow and heat transfer</li>
+                                <li>Disassemble unit covers for deeper clean</li>
+                                <li>Clean and sanitise internal covers</li>
+                                <li>Reassemble internal unit covers</li>
+                                <li>External condensor coils cleaned from mould, dirt and debris</li>
+                                <li>External condensor sanitised</li>
+                                <li>Full coil disinfection (kills 99.9% of bacteria)</li>
+                                <li>Filters disinfected (kills 99.9% of bacteria)</li>
+                                <li>All covers cleaned and disinfected (kills 99.9% of bacteria)</li>
+                            </ul>
+                            <a href="tel:<?= $phone_number ?>" class="btn d-inline-flex btn-tertiary fs-20 rounded-pill text-white py-3 px-md-5 ls-2">
+                                Enquire
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="package-card"></div>
+                        <div class="package-card">
+                            <div class="top-card bg-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <div class="fs-36 fw-800 lh-1">Hero Premium Package</div>
+                                        <div class="fs-20">Full Service &amp; Clean</div>
+                                    </div>
+                                    <div class="col-auto fs-64 fw-800 lh-1 d-flex align-items-center">
+                                        <div class="fs-36 lh-1 pe-1">$</div>
+                                        <div>99</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul>
+                                <li class="active">Split system indoor deep clean & sanitise</li>
+                                <li class="active">Remove dirt, mould and bacteria from interior</li>
+                                <li class="active">Clean fan barrel to increase airflow</li>
+                                <li class="active">Clean filters for cleaner airflow</li>
+                                <li class="active">Coils pressure washed for better cooling & to remove contaminates+</li>
+                                <li class="active">Internal sanitisation</li>
+                                <li class="active">Internal deodorisation</li>
+                                <li class="active">Evaporator deep clean for better airflow and heat transfer</li>
+                                <li class="active">Disassemble unit covers for deeper clean</li>
+                                <li class="active">Clean and sanitise internal covers</li>
+                                <li class="active">Reassemble internal unit covers</li>
+                                <li class="active">External condensor coils cleaned from mould, dirt and debris</li>
+                                <li class="active">External condensor sanitised</li>
+                                <li class="active">Full coil disinfection (kills 99.9% of bacteria)</li>
+                                <li class="active">Filters disinfected (kills 99.9% of bacteria)</li>
+                                <li class="active">All covers cleaned and disinfected (kills 99.9% of bacteria)</li>
+                            </ul>
+                            <a href="tel:<?= $phone_number ?>" class="btn d-inline-flex btn-secondary fs-20 rounded-pill text-white py-3 px-md-5 ls-2">
+                                Enquire
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -431,28 +491,195 @@
     </div>
 </section>
 
-<footer>
-    <div class="container">
-        <div class="row justify-content-center justify-content-lg-between align-items-center">
-            <div class="col-auto">
-                <div class="row gx-2 gx-md-3 text-white justify-content-center">
-                    <div class="col-12 text-center pb-3 d-lg-none">
-                        <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-                            <?= renderImg("aiims.png", "logo") ?>
-                        </a>
+<section class="testimonials" id="testimonials">
+    <?php $testimonials = [
+        [
+            "user" => "Lisa Berman",
+            "comment" => 'My family has used Hero for many years. Their competence and prompt level of service has always been outstanding! This is a family-owned company that is simply a pleasure to do business with. Throughout the years, we have recommended Hero to all of our friends, and the feedback we receive every time is that our friends feel exactly the same as we do.'
+        ],
+        [
+            "user" => "John Harris",
+            "comment" => 'Hero has been responsive, prompt and provided expertise on small and large jobs for us. Management is easy to reach, their technicians are easy to deal with and their work lasts for years. Since 2010, Hero Services has been my only contact for AC, plumbing and heating related issues. Excellent people.'
+        ],
+        [
+            "user" => 'Beau Wilson',
+            "comment" => "Hero came recommended and I was not disappointed. They answered the phone, they showed up on time, stuff got fixed, and was given good advice on what to do to make sure it doesn't happen again. I pass their name on whenever I hear someone needs AC, plumbing or heating work done."
+        ],
+        [
+            "user" => "Sophia Nguyen",
+            "comment" => "I have used Hero twice before at my previous house. When my outdoor unit stopped working last week, I called them right away and Sam was able to come to my home and fix it, the same day. Very professional, affordable, and helpful. I have recommended them to my friends in the past and will continue recommending them."
+        ],
+        [
+            "user" => "Paul Murphy",
+            "comment" => "After my AC stopped working I needed someone to call. I heard about Hero Cooling through friends and family. Once they came they got straight to work. It didn’t take long before they finished. I am very satisfied with the price of the service as well as the service itself. Recommend for anyone in Sydney to use this company as they are very professional."
+        ]
+    ]; ?>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-xl-11">
+                <div class="d-none d-xl-block">
+                    <div class="row">
+                        <?php foreach ($testimonials as $index => $testimonial) : ?>
+                            <div class="col">
+                                <div class="testimonial-slider-content<?= ($index % 2) ? ' mt-6' : '' ?>">
+                                    <div class="row justify-content-between">
+                                        <div class="col-auto">
+                                            <div class="fs-20 fw-800"><?= $testimonial['user'] ?></div>
+                                            <svg width="105" height="17" viewBox="0 0 105 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.5 0L11.1979 4.78661L16.584 5.87336L12.8653 9.91839L13.4962 15.3766L8.5 13.09L3.50383 15.3766L4.13465 9.91839L0.416019 5.87336L5.80207 4.78661L8.5 0Z" fill="#99D3FF" />
+                                                <path d="M30.5 0L33.1979 4.78661L38.584 5.87336L34.8653 9.91839L35.4962 15.3766L30.5 13.09L25.5038 15.3766L26.1347 9.91839L22.416 5.87336L27.8021 4.78661L30.5 0Z" fill="#99D3FF" />
+                                                <path d="M52.5 0L55.1979 4.78661L60.584 5.87336L56.8653 9.91839L57.4962 15.3766L52.5 13.09L47.5038 15.3766L48.1347 9.91839L44.416 5.87336L49.8021 4.78661L52.5 0Z" fill="#99D3FF" />
+                                                <path d="M74.5 0L77.1979 4.78661L82.584 5.87336L78.8653 9.91839L79.4962 15.3766L74.5 13.09L69.5038 15.3766L70.1347 9.91839L66.416 5.87336L71.8021 4.78661L74.5 0Z" fill="#99D3FF" />
+                                                <path d="M96.5 0L99.1979 4.78661L104.584 5.87336L100.865 9.91839L101.496 15.3766L96.5 13.09L91.5038 15.3766L92.1347 9.91839L88.416 5.87336L93.8021 4.78661L96.5 0Z" fill="#99D3FF" />
+                                            </svg>
+                                        </div>
+                                        <div class="col-auto mt-n5"><?= renderImg('user-' . $index . '.png', 'lib') ?></div>
+                                    </div>
+                                    <div class="text-light fs-20 pt-4">
+                                        <?= $testimonial['comment'] ?>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach ?>
                     </div>
-                    <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
-                    <div class="col-auto">|</div>
-                    <div class="col-auto text-center"><?= $site ?></div>
-                    <div class="col-auto">|</div>
-                    <div class="col-auto text-center">All Rights Reserved
+                </div>
+
+                <div class="d-xl-none">
+                    <div class="testimonial-slider" id="testimonial-slider">
+                        <?php foreach ($testimonials as $index => $testimonial) : ?>
+                            <div class="testimonial-slider-content mt-6">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <div class="fs-20 fw-800"><?= $testimonial['user'] ?></div>
+                                        <svg width="105" height="17" viewBox="0 0 105 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.5 0L11.1979 4.78661L16.584 5.87336L12.8653 9.91839L13.4962 15.3766L8.5 13.09L3.50383 15.3766L4.13465 9.91839L0.416019 5.87336L5.80207 4.78661L8.5 0Z" fill="#99D3FF" />
+                                            <path d="M30.5 0L33.1979 4.78661L38.584 5.87336L34.8653 9.91839L35.4962 15.3766L30.5 13.09L25.5038 15.3766L26.1347 9.91839L22.416 5.87336L27.8021 4.78661L30.5 0Z" fill="#99D3FF" />
+                                            <path d="M52.5 0L55.1979 4.78661L60.584 5.87336L56.8653 9.91839L57.4962 15.3766L52.5 13.09L47.5038 15.3766L48.1347 9.91839L44.416 5.87336L49.8021 4.78661L52.5 0Z" fill="#99D3FF" />
+                                            <path d="M74.5 0L77.1979 4.78661L82.584 5.87336L78.8653 9.91839L79.4962 15.3766L74.5 13.09L69.5038 15.3766L70.1347 9.91839L66.416 5.87336L71.8021 4.78661L74.5 0Z" fill="#99D3FF" />
+                                            <path d="M96.5 0L99.1979 4.78661L104.584 5.87336L100.865 9.91839L101.496 15.3766L96.5 13.09L91.5038 15.3766L92.1347 9.91839L88.416 5.87336L93.8021 4.78661L96.5 0Z" fill="#99D3FF" />
+                                        </svg>
+                                    </div>
+                                    <div class="col-auto mt-n5"><?= renderImg('user-' . $index . '.png', 'lib') ?></div>
+                                </div>
+                                <div class="text-light fs-20 pt-4">
+                                    <?= $testimonial['comment'] ?>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
-            <div class="col-auto d-none d-lg-block">
-                <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-                    <?= renderImg("aiims.png", "logo") ?>
-                </a>
+        </div>
+    </div>
+</section>
+
+<section class="form" id="form">
+    <div class="container">
+        <div class="form_inner">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-italic fs-64 fw-900 lh-1">Enquire Now!</div>
+                    <div class="row align-items-center py-4">
+                        <div class="col-auto fs-20">Or Call Us Today</div>
+                        <div class="col-auto">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary fs-20 rounded-pill text-white py-3 px-md-4 ls-2">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75914 0.0522396C7.61732 0.119348 7.4867 0.290341 7.45325 0.452577C7.40915 0.666725 7.56306 0.959207 7.76407 1.04323C7.81684 1.06528 8.01441 1.09217 8.20315 1.10299C9.29959 1.16585 10.1647 1.38197 11.025 1.80795C12.4212 2.49927 13.5186 3.5989 14.1875 4.97669C14.6171 5.86176 14.8117 6.608 14.8778 7.6242C14.9148 8.19133 14.9371 8.27705 15.0806 8.40311C15.3671 8.65475 15.7948 8.56656 15.946 8.22473C16.0045 8.09245 16.0085 8.04045 15.9907 7.64868C15.9122 5.92331 15.2718 4.25313 14.1794 2.92543C12.9073 1.37931 11.0858 0.353759 9.10895 0.070596C8.93703 0.045954 8.59242 0.017841 8.34315 0.00808425C7.93433 -0.00789549 7.8771 -0.00358002 7.75914 0.0522396ZM1.88981 0.808697C0.979376 1.23852 0.204008 1.61879 0.166812 1.65375C0.129616 1.68871 0.073603 1.77405 0.0423458 1.84338C-0.00969754 1.95889 -0.0112604 1.99842 0.0239665 2.31517C0.0765099 2.78806 0.194694 3.41621 0.341696 4.00414C1.19702 7.42484 3.48533 10.7178 6.63963 13.0672C8.75906 14.6458 11.1738 15.6544 13.5679 15.9611C13.9701 16.0126 14.0026 16.0127 14.1336 15.9627C14.2101 15.9335 14.3028 15.8774 14.3397 15.8382C14.3765 15.7989 14.76 15.0158 15.1917 14.0981C15.9743 12.4344 15.9766 12.4288 15.9637 12.2501C15.9543 12.1195 15.929 12.0425 15.8707 11.9662C15.8194 11.8991 15.2417 11.5079 14.2627 10.8773C13.4224 10.3361 12.6861 9.86818 12.6266 9.83756C12.5054 9.77527 12.2993 9.7651 12.1664 9.81492C12.118 9.83306 11.7619 10.1629 11.3751 10.5478C10.9883 10.9328 10.6322 11.2627 10.5838 11.281C10.2874 11.3929 9.40073 11.1781 8.61093 10.8029C7.92696 10.478 7.27743 10.0044 6.63634 9.36305C5.98469 8.71107 5.51952 8.06909 5.18376 7.35839C4.81667 6.58129 4.60812 5.70828 4.71927 5.41377C4.73753 5.36536 5.06732 5.00912 5.4521 4.62213C5.83688 4.23515 6.16655 3.8789 6.18468 3.83049C6.22569 3.72104 6.22725 3.52569 6.18799 3.42237C6.15186 3.32724 4.20275 0.289997 4.11073 0.185362C4.01983 0.0820413 3.8708 0.0250334 3.69463 0.0262217C3.56535 0.0270973 3.32154 0.132795 1.88981 0.808697ZM7.8254 2.7793C7.68709 2.81952 7.51277 3.00783 7.46894 3.16441C7.41681 3.35076 7.47091 3.53798 7.62013 3.68724C7.75504 3.82221 7.90636 3.87121 8.18917 3.87143C8.63918 3.87183 9.36895 4.05502 9.81758 4.28027C11.021 4.88437 11.849 5.99939 12.0774 7.32339C12.1037 7.47616 12.1254 7.69427 12.1255 7.8081C12.1257 8.09245 12.1745 8.24365 12.3096 8.37881C12.5352 8.60459 12.853 8.60562 13.0773 8.38125C13.2416 8.21692 13.2652 8.09124 13.2227 7.60856C13.1072 6.29563 12.5958 5.18514 11.6943 4.28931C10.8112 3.41177 9.73359 2.90645 8.47268 2.77865C8.09715 2.74059 7.95815 2.74074 7.8254 2.7793Z" fill="white" />
+                                </svg>
+                                <span class="ps-2"><?= $phone_number ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fs-20">
+                        Getting ready for Winter or Summer is way easier with Hero Heating and Cooling. Turn to us for all things Air Conditioning in Sydney to make sure nothing kills your comfort!
+                    </div>
+                    <form action="./src/form" method="POST">
+                        <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+                        <div class="row form_row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="tel" class="form-control" name="phone" placeholder="Number" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" name="address" placeholder="Address" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="message" placeholder="Message" required>
+                            </div>
+                            <div class="col-12">
+                                <div class="row no-gutters justify-content-between align-items-center">
+                                    <div class="col-12 col-md-6 pr-4">
+                                        <label for="file-upload" class="my-0 w-100" id="file-label">
+                                            <div class="btn border-white rounded-5 text-white fs-20 fw-300 py-3">
+                                                Attach File
+                                            </div>
+                                        </label>
+                                        <input id="file-upload" class="form-control rounded-0" type="file" name="uploadedFile" onchange="fileUploaded('file-upload','uploaded-file-name')">
+                                    </div>
+                                    <div class="col-12 col-md pt-3 pt-md-0">
+                                        <div class="text-light fw-300" id="uploaded-file-name">
+                                            no file chosen.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn d-inline-flex btn-secondary fs-20 rounded-pill text-white py-3 px-md-5">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <?= renderImg("form-superhero.png", "lib", "form-superhero") ?>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row justify-content-center justify-content-lg-between align-items-center">
+            <div class="col-auto"><?= renderImg("footer_logo.png", "logo") ?></div>
+            <div class="col-auto">
+                <div class="row gx-2 gx-md-3 justify-content-center">
+                    <div class="col-auto text-center"><?= $site ?></div>
+                    <div class="col-auto">/</div>
+                    <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
+                    <div class="col-auto">/</div>
+                    <div class="col-auto text-center">All Rights Reserved</div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <a href="./" target="_blank">
+                            <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.8489 14.4038L12.5542 9.73012H8.46347V6.71483C8.46347 5.65947 9.0277 4.45335 10.8615 4.45335H12.6952V0.533464C12.6952 0.533464 11.0025 0.231934 9.30982 0.231934C5.92443 0.231934 3.6675 2.49341 3.6675 6.4133V9.88089H0V14.5546H3.80856V25.5604C4.51385 25.7112 5.3602 25.7112 6.20655 25.7112C7.05289 25.7112 7.75818 25.7112 8.60453 25.5604V14.4038H11.8489Z" fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="./" target="_blank">
+                            <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.4146 4.75476C19.5178 4.75476 18.9199 5.35784 18.9199 6.26246C18.9199 7.16708 19.5178 7.77016 20.4146 7.77016C21.3115 7.77016 21.9094 7.16708 21.9094 6.26246C21.9094 5.35784 21.162 4.75476 20.4146 4.75476Z" fill="white" />
+                                <path d="M13.8389 6.71277C10.401 6.71277 7.56104 9.57811 7.56104 13.0467C7.56104 16.5153 10.401 19.3806 13.8389 19.3806C17.2768 19.3806 20.1168 16.5153 20.1168 13.0467C19.9673 9.4273 17.2768 6.71277 13.8389 6.71277ZM13.8389 16.9677C11.5968 16.9677 9.80313 15.158 9.80313 12.8959C9.80313 10.6338 11.5968 8.97488 13.8389 8.97488C16.081 8.97488 17.8747 10.7846 17.8747 13.0467C17.8747 15.3088 15.9315 16.9677 13.8389 16.9677Z" fill="white" />
+                                <path d="M18.7716 25.7146H8.60748C4.42224 25.7146 0.984375 22.2463 0.984375 18.0239V7.92028C0.984375 3.69789 4.42224 0.229492 8.60748 0.229492H18.7716C22.9569 0.229492 26.3947 3.69789 26.3947 7.92028V18.0239C26.3947 22.3971 22.9569 25.7146 18.7716 25.7146ZM8.60748 2.49149C5.7675 2.49149 3.37594 4.90428 3.37594 7.76948V18.0239C3.37594 20.8891 5.7675 23.3018 8.60748 23.3018H18.7716C21.6116 23.3018 24.0032 20.8891 24.0032 18.0239V7.92028C24.0032 5.05508 21.6116 2.64229 18.7716 2.64229H8.60748V2.49149Z" fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="./" target="_blank">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.944947 7.22816H5.35758V21.9436H0.944947V7.22816ZM3.21431 -0.000488281C4.60114 -0.000488281 5.73581 1.16126 5.73581 2.58117C5.73581 4.00108 4.60114 5.16283 3.21431 5.16283C1.82748 5.16283 0.6928 4.00108 0.6928 2.58117C0.566725 1.16126 1.82748 -0.000488281 3.21431 -0.000488281Z" fill="white" />
+                                <path d="M8.25781 7.2263H12.5443V9.29157C13.1747 8.12985 14.5614 6.96814 16.7047 6.96814C21.2433 6.96814 21.9998 10.066 21.9998 13.9384V21.9413H17.5872V14.842C17.5872 13.1639 17.5872 10.9696 15.3179 10.9696C13.0486 10.9696 12.6704 12.7767 12.6704 14.7129V21.9413H8.25781V7.2263Z" fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

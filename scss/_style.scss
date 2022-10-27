@@ -9,9 +9,9 @@ header {
         width: 100%;
         background-color: $primary;
         z-index: 100000;
-        
+
         &.shadow {
-            box-shadow: 0 5px 5px 1px rgba(0,0,0,0.075);
+            box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.075);
         }
 
         a.nav-link {
@@ -201,6 +201,7 @@ section.packages {
 
     .package-card {
         border-radius: 20px;
+        height: 100%;
         background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
         padding: 0 60px 60px;
         text-align: center;
@@ -211,18 +212,133 @@ section.packages {
 
         .top-card {
             border-radius: 10px;
-            padding: 22px 40px;
-            background: $tertiary;
+            padding: 25px 40px;
             text-align: start;
+            width: 90%;
+            margin-top: -20px;
+        }
+
+        ul {
+            margin: 60px 0;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                font-size: 1.25rem;
+                font-weight: 700;
+                color: $light;
+                opacity: 0.2;
+                padding: 10px 0;
+                line-height: 1;
+                position: relative;
+
+                &.active {
+                    opacity: 1;
+
+                    &::before {
+                        content: '';
+                        background-image: url("data:image/svg+xml,%3Csvg width='28' height='24' viewBox='0 0 28 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M25.0538 0.113328C23.9219 0.286433 23.3437 0.669052 21.1302 2.71012C17.3323 6.21191 14.1444 9.91754 11.1428 14.3193L10.5054 15.2539L9.52071 14.2185C7.92844 12.544 6.64518 11.6982 5.18408 11.3599C4.76047 11.2618 3.64024 11.1816 2.24947 11.1497L0 11.0981L0.35518 11.3486C3.85986 13.8211 6.48073 16.4214 8.53757 19.467C8.93561 20.0563 9.58085 21.093 9.97167 21.7707L10.682 23.0029L11.8387 21.0621C16.0211 14.0448 20.8309 7.68864 26.4828 1.71019C27.3172 0.827551 28 0.0794263 28 0.0478139C28 -0.0437531 25.7548 0.0061727 25.0538 0.113328Z' fill='white'/%3E%3C/svg%3E%0A");
+                        background-repeat: no-repeat no-repeat;
+                        background-position: center center;
+                        height: 24px;
+                        width: 28px;
+                        background-size: cover;
+                        position: absolute;
+                        top: 5px;
+                        left: -2.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.testimonials {
+    padding: 50px 0;
+
+    .testimonial-slider {
+        .slick-track {
+            display: flex;
+            gap: 12px;
+        }
+
+        .slick-slide {
+            height: inherit;
+        }
+
+    }
+
+    .testimonial-slider-content {
+        background: linear-gradient(180deg, #0A7BCE 0%, rgba(10, 123, 206, 0.5) 100%);
+        border-radius: 20px;
+        padding: 30px;
+        height: 100%;
+        transition: 0.5s all ease-in-out;
+
+        &:hover {
+            background: linear-gradient(180deg, #198EE3 0%, #176FBF 100%);
+            transition: 0.5s all ease-in-out;
+        }
+    }
+}
+
+section.form {
+    padding: 224px 0 44px;
+
+    .form_inner {
+        background: linear-gradient(180deg, #198EE3 0%, rgba(25, 142, 227, 0.5) 100%);
+        border-radius: 20px;
+        padding: 70px;
+        position: relative;
+        color: $white;
+
+        form {
+            padding-top: 50px;
+
+            .form_row {
+                --bs-gutter-y: 40px;
+            }
+
+            input[type="file"] {
+                display: none;
+            }
+
+            input {
+                padding: 0 0 8px 0;
+                border-radius: 0;
+                border: 0;
+                border-bottom: 1px solid $white;
+                color: $white;
+                background: none;
+                font-size: 1.25rem;
+
+                &::placeholder {
+                    color: $white;
+                    opacity: 0.6;
+                }
+
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .form-superhero {
+            position: absolute;
+            top: -16px;
+            right: 87px;
         }
     }
 }
 
 footer {
-    font-size: 0.875rem;
-    background-color: #221f1f;
-
+    color: $grey;
+    padding: 55px 0;
+    
     @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
+        font-size: 0.875rem;
     }
 }

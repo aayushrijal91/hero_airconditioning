@@ -10,6 +10,23 @@ document.querySelectorAll('a[href="#form"], a[href="#specials"], a[href="#about-
     });
 });
 
+$(() => {
+    $('#testimonial-slider').slick({
+        slidesToShow: 5,
+        arrows: false,
+    })
+});
+
+function fileUploaded(uploadName, labelId, textColor = '#161616') {
+    var file = document.getElementById(uploadName);
+    if (file.value != "") {
+        var theSplit = file.value.split('\\');
+        var fileName = theSplit[theSplit.length - 1];
+        $(`#${labelId}`).html(fileName.substring(0, 50));
+        $(`#${labelId}`).css('color', textColor);
+    }
+}
+
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 500) {
         $('.navigation-bar').addClass('shadow');
