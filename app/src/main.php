@@ -2,7 +2,7 @@
     <div class="navigation-bar py-5 py-md-4">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between align-items-center">
-                <div class="col-auto d-lg-none">
+                <div class="col-auto d-xl-none">
                     <a href="javascript:void(0)" id="show-slide-nav">
                         <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25 2C21.0851 2 8.03546 2 2 2" stroke="white" stroke-width="3" stroke-linecap="round" />
@@ -18,7 +18,7 @@
                                 <?= renderImg("logo.png", "logo") ?>
                             </a>
                         </div>
-                        <div class="col-auto d-none d-lg-block">
+                        <div class="col-auto d-none d-xl-block">
                             <div class="row">
                                 <div class="col-auto"><a href="#specials" class="nav-link">Specials</a></div>
                                 <div class="col-auto"><a href="#about-us" class="nav-link">About Us</a></div>
@@ -1012,7 +1012,7 @@
                     <div class="fs-20 pt-4 pt-md-0">
                         Getting ready for Winter or Summer is way easier with Hero Heating and Cooling. Turn to us for all things Air Conditioning in Sydney to make sure nothing kills your comfort!
                     </div>
-                    <form action="./src/form" method="POST">
+                    <form action="./src/form" method="POST" enctype="multipart/form-data">
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                         <div class="row form_row">
                             <div class="col-lg-6">
