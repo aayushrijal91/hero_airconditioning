@@ -933,40 +933,13 @@
             "comment" => "After my AC stopped working I needed someone to call. I heard about Hero Cooling through friends and family. Once they came they got straight to work. It didn’t take long before they finished. I am very satisfied with the price of the service as well as the service itself. Recommend for anyone in Sydney to use this company as they are very professional."
         ]
     ]; ?>
-    <div class="container-fluid">
+    <div class="container-fluid d-none d-xxl-block">
         <div class="row justify-content-center">
             <div class="col-xxl-11">
-                <div class="d-none d-xxl-block">
-                    <div class="row">
-                        <?php foreach ($testimonials as $index => $testimonial) : ?>
-                            <div class="col">
-                                <div class="testimonial-slider-content<?= ($index % 2) ? ' mt-6' : '' ?>">
-                                    <div class="row justify-content-between">
-                                        <div class="col-auto">
-                                            <div class="fs-20 fw-800"><?= $testimonial['user'] ?></div>
-                                            <svg width="105" height="17" viewBox="0 0 105 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M8.5 0L11.1979 4.78661L16.584 5.87336L12.8653 9.91839L13.4962 15.3766L8.5 13.09L3.50383 15.3766L4.13465 9.91839L0.416019 5.87336L5.80207 4.78661L8.5 0Z" fill="#99D3FF" />
-                                                <path d="M30.5 0L33.1979 4.78661L38.584 5.87336L34.8653 9.91839L35.4962 15.3766L30.5 13.09L25.5038 15.3766L26.1347 9.91839L22.416 5.87336L27.8021 4.78661L30.5 0Z" fill="#99D3FF" />
-                                                <path d="M52.5 0L55.1979 4.78661L60.584 5.87336L56.8653 9.91839L57.4962 15.3766L52.5 13.09L47.5038 15.3766L48.1347 9.91839L44.416 5.87336L49.8021 4.78661L52.5 0Z" fill="#99D3FF" />
-                                                <path d="M74.5 0L77.1979 4.78661L82.584 5.87336L78.8653 9.91839L79.4962 15.3766L74.5 13.09L69.5038 15.3766L70.1347 9.91839L66.416 5.87336L71.8021 4.78661L74.5 0Z" fill="#99D3FF" />
-                                                <path d="M96.5 0L99.1979 4.78661L104.584 5.87336L100.865 9.91839L101.496 15.3766L96.5 13.09L91.5038 15.3766L92.1347 9.91839L88.416 5.87336L93.8021 4.78661L96.5 0Z" fill="#99D3FF" />
-                                            </svg>
-                                        </div>
-                                        <div class="col-auto mt-n5"><?= renderImg('user-' . $index . '.png', 'lib') ?></div>
-                                    </div>
-                                    <div class="text-light fs-20 pt-4">
-                                        <?= $testimonial['comment'] ?>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endforeach ?>
-                    </div>
-                </div>
-
-                <div class="d-xxl-none">
-                    <div class="testimonial-slider" id="testimonial-slider">
-                        <?php foreach ($testimonials as $index => $testimonial) : ?>
-                            <div class="testimonial-slider-content mt-6">
+                <div class="row">
+                    <?php foreach ($testimonials as $index => $testimonial) : ?>
+                        <div class="col">
+                            <div class="testimonial-slider-content<?= ($index % 2) ? ' mt-6' : '' ?>">
                                 <div class="row justify-content-between">
                                     <div class="col-auto">
                                         <div class="fs-20 fw-800"><?= $testimonial['user'] ?></div>
@@ -984,10 +957,34 @@
                                     <?= $testimonial['comment'] ?>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
-                    </div>
+                        </div>
+                    <?php endforeach ?>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="d-xxl-none">
+        <div class="testimonial-slider" id="testimonial-slider">
+            <?php foreach ($testimonials as $index => $testimonial) : ?>
+                <div class="testimonial-slider-content mt-6 mb-4">
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <div class="fs-20 fw-800"><?= $testimonial['user'] ?></div>
+                            <svg width="105" height="17" viewBox="0 0 105 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.5 0L11.1979 4.78661L16.584 5.87336L12.8653 9.91839L13.4962 15.3766L8.5 13.09L3.50383 15.3766L4.13465 9.91839L0.416019 5.87336L5.80207 4.78661L8.5 0Z" fill="#99D3FF" />
+                                <path d="M30.5 0L33.1979 4.78661L38.584 5.87336L34.8653 9.91839L35.4962 15.3766L30.5 13.09L25.5038 15.3766L26.1347 9.91839L22.416 5.87336L27.8021 4.78661L30.5 0Z" fill="#99D3FF" />
+                                <path d="M52.5 0L55.1979 4.78661L60.584 5.87336L56.8653 9.91839L57.4962 15.3766L52.5 13.09L47.5038 15.3766L48.1347 9.91839L44.416 5.87336L49.8021 4.78661L52.5 0Z" fill="#99D3FF" />
+                                <path d="M74.5 0L77.1979 4.78661L82.584 5.87336L78.8653 9.91839L79.4962 15.3766L74.5 13.09L69.5038 15.3766L70.1347 9.91839L66.416 5.87336L71.8021 4.78661L74.5 0Z" fill="#99D3FF" />
+                                <path d="M96.5 0L99.1979 4.78661L104.584 5.87336L100.865 9.91839L101.496 15.3766L96.5 13.09L91.5038 15.3766L92.1347 9.91839L88.416 5.87336L93.8021 4.78661L96.5 0Z" fill="#99D3FF" />
+                            </svg>
+                        </div>
+                        <div class="col-auto mt-n5"><?= renderImg('user-' . $index . '.png', 'lib') ?></div>
+                    </div>
+                    <div class="text-light fs-20 pt-4">
+                        <?= $testimonial['comment'] ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
@@ -1056,6 +1053,9 @@
             </div>
             <div class="text-center"><?= renderImg("form-superhero.png", "lib", "form-superhero pt-md-5 pt-xl-0") ?></div>
         </div>
+        <div class="text-center pt-5 d-lg-none">
+            <a href="tel:<?= $phone_number ?>" class="btn d-inline-flex border-white fs-20 rounded-pill text-white py-3 px-5">Click to call</a>
+        </div>
     </div>
 </section>
 
@@ -1114,9 +1114,6 @@
                 <div class="pb-3"><?= $site ?></div>
                 <div class="lh-1">Copyright <?= date('Y') ?></div>
                 <div class="lh-1">All Rights Reserved</div>
-            </div>
-            <div class="col-auto d-lg-none">
-                <a href="https://www.aiims.com.au/like-our-work/" target="_blank"><?= renderImg("aiims.png", "logo") ?></a>
             </div>
         </div>
     </div>

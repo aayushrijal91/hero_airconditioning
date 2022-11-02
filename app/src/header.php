@@ -72,7 +72,7 @@
 					<li><a href="#packages">Service Prices</a></li>
 					<li><a href="#why-us">Why hero?</a></li>
 					<li><a href="#testimonials">Reviews</a></li>
-					<li><a href="#Book Online">Form</a></li>
+					<li><a href="#form">Book Online</a></li>
 				</ul>
 				<div class="row gy-4">
 					<div class="col-12 text-center">

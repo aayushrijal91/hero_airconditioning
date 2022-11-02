@@ -49,6 +49,8 @@ $(() => {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
+                    centerMode: true,
+                    centerPadding: "30px"
                 }
             }
         ]
@@ -70,6 +72,8 @@ $(() => {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
+                    centerMode: true,
+                    centerPadding: "30px"
                 }
             }
         ]
